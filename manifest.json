@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T21:00:38Z",
+ "generated": "2026-09-13T21:07:37Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.5: The search box rebuilt the entire station list on every keystroke, expensive enough to stall the UI (visible as the search text jittering) and, likely, the audio decoder if a stream was connectin",
-   "version": "0.5",
+   "notes": "0.6: The volume slider (and its icon) were positioned below the Now Playing page's own height (222 px, but the slider sat at y=230), so they were silently clipped and never appeared. Both pages are no",
+   "version": "0.6",
    "system": false,
    "category": "Media",
    "size": 2540912,
-   "sha256": "a7fc959985cb8e0d4b13633f8d879a5ef559da3575229096f31fc714adf26186",
+   "sha256": "69e82d925fc94c6ece61b77b305ac9d953534ea3770490061c9f2d3eb9e5fae1",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
