@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T15:39:07Z",
+ "generated": "2026-09-13T16:18:52Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.29: My Pixlets groups the not-on-device Pixlets by the same categories as the Pix Store website (Time, Markets, Everyday, Learning, Media, Games, Tools), with a small heading before each group. Pixl",
-   "version": "3.29",
+   "notes": "3.30: Device memory shrunk from six 2.31 MB slots to four ~3.44-3.56 MB slots, to fit apps/radio (internet radio streaming pulls WiFi/TLS code into the link that mp3's SD-only playback never needed). ",
+   "version": "3.30",
    "system": false,
    "category": "Home",
-   "size": 1788320,
-   "sha256": "687b17cbcd3a9ec884ac4a19be754a2f679655c640aec592262f02e1057dd064",
+   "size": 1788336,
+   "sha256": "d97963c57138b2463ca59ec8606c4d0cfb75550e85af49dfb761342d1f73bffe",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -156,6 +156,18 @@
    "size": 917344,
    "sha256": "1e7164f4c3adbd1e5e88505d3510d36ef89cfd207eacb4c5be5cdcc36c2fb998",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
+  },
+  {
+   "id": "radio",
+   "title": "Internet Radio",
+   "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
+   "notes": "0.1: First release. 12 curated internet radio stations (SomaFM, Radio Paradise) plus up to 10 custom stations you add by direct stream URL. Play/Stop (no pause, for a live stream), a simple spectrum v",
+   "version": "0.1",
+   "system": false,
+   "category": "Media",
+   "size": 2521584,
+   "sha256": "7551ffdd037ffb477542d954404ebe984ed5e6870d92832d72288397e7bad676",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
    "id": "scores",
