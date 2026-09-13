@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T14:07:49Z",
+ "generated": "2026-09-13T14:18:37Z",
  "apps": [
   {
    "id": "calculator",
@@ -185,12 +185,12 @@
    "id": "sleep",
    "title": "Sleep Monitoring",
    "description": "Start/end sleep timer with a goal ring, and a 30-night bar chart of how long you slept.",
-   "notes": "0.3: The edit popup's Delete button no longer sits partly under the keyboard. Bar heights now scale to the tallest night on the chart (floored at the 8h goal) instead of a fixed 10h ceiling, so a typi",
-   "version": "0.3",
+   "notes": "0.4: A short (or barely-logged) night now shows as a clearly visible bar instead of blending into the dashed \"no data\" baseline.",
+   "version": "0.4",
    "system": false,
    "category": "Everyday",
    "size": 1460720,
-   "sha256": "2eb5993f73b6837301d7c9acbb6bb378d6e5c52dab59fad80b201f30c2c4776c",
+   "sha256": "da583d05d38f0d7c772a2e2b0c8e7ae68b163300011b5ddf1dbee7023fbaffe7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sleep/firmware.bin"
   },
   {
