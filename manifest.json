@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T22:45:17Z",
+ "generated": "2026-09-13T12:54:53Z",
  "apps": [
   {
    "id": "calculator",
@@ -36,6 +36,18 @@
    "size": 1850976,
    "sha256": "bc08034102fa6fce94ceb754aa71bb2ba8b52e0f279ec7f1aee652c60299e307",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
+  },
+  {
+   "id": "currency",
+   "title": "Currency",
+   "description": "Currency converter plus up to 8 favourites with 24h/7d/1mo change, ECB rates.",
+   "notes": "0.1: First release. Converter (30 ECB currencies, keypad entry) and a Favorites page of up to 8 currencies vs one home currency with 24h/7d/1mo change.",
+   "version": "0.1",
+   "system": false,
+   "category": "Markets",
+   "size": 1605360,
+   "sha256": "73299feb23592ac9dd1a30197f0fa65b43178fa675a09f474385c9bfe559755e",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/currency/firmware.bin"
   },
   {
    "id": "dice",
@@ -125,12 +137,12 @@
    "id": "photos",
    "title": "Photo Frame",
    "description": "JPEG photo frame from the Photos folder.",
-   "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.3",
+   "notes": "0.4: Sample set replaced with two real dog photos (free-license, from Unsplash); the old placeholder gradient/test-pattern samples are gone.",
+   "version": "0.4",
    "system": false,
    "category": "Media",
-   "size": 1535856,
-   "sha256": "9fd078b3b2c216141a8d398bd07dc31ae8751813daf5302736708ad2646060d8",
+   "size": 1511072,
+   "sha256": "478b458a7ae24d218e1ef272d2d38e0a42095a85f4c9fe732077afb2d39d90a4",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -149,12 +161,12 @@
    "id": "scores",
    "title": "Game Scores",
    "description": "Score keeper for up to six players.",
-   "notes": "0.6: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.6",
+   "notes": "0.7: The +/- players buttons dim out at 1 and 6 (the fixed range) instead of silently doing nothing, since tapping + past 6 looked like it was broken.",
+   "version": "0.7",
    "system": false,
    "category": "Games",
-   "size": 919712,
-   "sha256": "6442bcbe9fb157ca73213b4d785980eceb7ed5ef2b7194b3b87bc69662b2645f",
+   "size": 919808,
+   "sha256": "dfd4ce597f42994da2830d303269a6151dba6e322e47ab461aa6e7ee432d2452",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
@@ -168,6 +180,18 @@
    "size": 1475616,
    "sha256": "22bdf5a22c6002bd02a2f79d9507dd5076b80752d97288362b445a521fcd0813",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
+  },
+  {
+   "id": "sleep",
+   "title": "Sleep Monitoring",
+   "description": "Start/end sleep timer with a goal ring, and a 30-night bar chart of how long you slept.",
+   "notes": "0.1: First release. Start/End Sleep timer with an 8-hour progress ring, and a 30-night bar chart colored by how healthy each night's length was.",
+   "version": "0.1",
+   "system": false,
+   "category": "Everyday",
+   "size": 1423584,
+   "sha256": "6e883975d8eada01fcffb639433173d7e2be1e518bd362183ea3536d8cbef332",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sleep/firmware.bin"
   },
   {
    "id": "spanish",
