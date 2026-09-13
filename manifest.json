@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T21:58:25Z",
+ "generated": "2026-09-13T22:05:33Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.9: Replaced the \"*\" favorite icon with an actual heart, drawn as a small tinted bitmap since LVGL's built-in font has no heart glyph.",
-   "version": "0.9",
+   "notes": "0.10: The search box still moved up and down slightly after the 0.5 debounce fix - its own horizontal scroll engine was recalculating (and lightly animating) on every keystroke, which a 464px-wide fie",
+   "version": "0.10",
    "system": false,
    "category": "Media",
-   "size": 2542000,
-   "sha256": "5d8221f9281cc5de2b1765efcd48eb6a2a86202a2d2a68cedf1db848b2b3fb00",
+   "size": 2542032,
+   "sha256": "3d95fe250a6158dea32bf22416b607458b4f41fd85247bb8ce3d06403064f0d8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
