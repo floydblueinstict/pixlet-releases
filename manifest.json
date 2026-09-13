@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T21:32:38Z",
+ "generated": "2026-09-13T21:58:25Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.8: The spectrum visualizer redrew unconditionally every 50ms even while its own page was hidden (Browse showing instead), and updating those objects' style/size still cost CPU that competed with rea",
-   "version": "0.8",
+   "notes": "0.9: Replaced the \"*\" favorite icon with an actual heart, drawn as a small tinted bitmap since LVGL's built-in font has no heart glyph.",
+   "version": "0.9",
    "system": false,
    "category": "Media",
-   "size": 2541216,
-   "sha256": "39734678a93116fe414a31dbefdb1b017bcd39fabf5e989a0cc2c2892ca77718",
+   "size": 2542000,
+   "sha256": "5d8221f9281cc5de2b1765efcd48eb6a2a86202a2d2a68cedf1db848b2b3fb00",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
