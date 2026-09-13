@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T22:41:54Z",
+ "generated": "2026-09-13T23:03:07Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.13: The search box's blinking cursor was the actual remaining source of the \"jitter\" - a periodic animation independent of everything targeted in 0.5/0.10, and (per 0.12's finding) invalidating it t",
-   "version": "0.13",
+   "notes": "0.14: Disabling the cursor blink animation alone (0.13) didn't stop the reported up/down jitter, confirmed still visible to the naked eye (not a phone-camera artifact - checked by analyzing a video fr",
+   "version": "0.14",
    "system": false,
    "category": "Media",
-   "size": 2542208,
-   "sha256": "542f5eff87c150fd2c0585222589011f23a2285cff4607fb8b0f74d6d84b8046",
+   "size": 2542240,
+   "sha256": "635917e01547ec1d2a97fb894e2d15993719ed4f4a893add3b1441d4927ddf56",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
