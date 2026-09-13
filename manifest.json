@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T21:24:57Z",
+ "generated": "2026-09-13T21:32:38Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.7: Moved the favorite toggle off the Browse list (a tap there also registered as a tap on the row underneath, playing that station instead of favoriting it \u2014 LVGL bubbles the child button's click up",
-   "version": "0.7",
+   "notes": "0.8: The spectrum visualizer redrew unconditionally every 50ms even while its own page was hidden (Browse showing instead), and updating those objects' style/size still cost CPU that competed with rea",
+   "version": "0.8",
    "system": false,
    "category": "Media",
    "size": 2541216,
-   "sha256": "ad11b08286e20ae59ca3bbd0eb51c4bd02bcf069477d2dc465bac67b1d1526b7",
+   "sha256": "39734678a93116fe414a31dbefdb1b017bcd39fabf5e989a0cc2c2892ca77718",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
