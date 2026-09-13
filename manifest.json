@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T15:07:09Z",
+ "generated": "2026-09-13T15:23:47Z",
  "apps": [
   {
    "id": "calculator",
@@ -185,12 +185,12 @@
    "id": "sleep",
    "title": "Sleep Monitoring",
    "description": "Start/end sleep timer with a goal ring, and a 30-night bar chart of how long you slept.",
-   "notes": "0.5: The edit popup now has separate Hours and Minutes fields instead of one total-minutes field, which was easy to misread and led to wildly wrong nights (typing \"8\" as 8 minutes when 8 hours was mea",
-   "version": "0.5",
+   "notes": "0.6: Stats now has an averages panel beside the chart: last 7 days, last 30 days, and all time (the full rolling buffer). The chart is narrower to make room.",
+   "version": "0.6",
    "system": false,
    "category": "Everyday",
-   "size": 1460960,
-   "sha256": "8be9943230d9d0cc44a678c3df49ed9680744f5b37098582600e355b3cb46727",
+   "size": 1461360,
+   "sha256": "584b2d95aefc9bc01f6fe3a7570f48bfcd4b98f8bcff282283e30402a50ab858",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sleep/firmware.bin"
   },
   {
