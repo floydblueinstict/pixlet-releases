@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T21:07:37Z",
+ "generated": "2026-09-13T21:24:57Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.6: The volume slider (and its icon) were positioned below the Now Playing page's own height (222 px, but the slider sat at y=230), so they were silently clipped and never appeared. Both pages are no",
-   "version": "0.6",
+   "notes": "0.7: Moved the favorite toggle off the Browse list (a tap there also registered as a tap on the row underneath, playing that station instead of favoriting it \u2014 LVGL bubbles the child button's click up",
+   "version": "0.7",
    "system": false,
    "category": "Media",
-   "size": 2540912,
-   "sha256": "69e82d925fc94c6ece61b77b305ac9d953534ea3770490061c9f2d3eb9e5fae1",
+   "size": 2541216,
+   "sha256": "ad11b08286e20ae59ca3bbd0eb51c4bd02bcf069477d2dc465bac67b1d1526b7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
