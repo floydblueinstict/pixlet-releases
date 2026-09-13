@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T12:54:53Z",
+ "generated": "2026-09-13T13:15:27Z",
  "apps": [
   {
    "id": "calculator",
@@ -185,12 +185,12 @@
    "id": "sleep",
    "title": "Sleep Monitoring",
    "description": "Start/end sleep timer with a goal ring, and a 30-night bar chart of how long you slept.",
-   "notes": "0.1: First release. Start/End Sleep timer with an 8-hour progress ring, and a 30-night bar chart colored by how healthy each night's length was.",
-   "version": "0.1",
+   "notes": "0.2: Tap a night in the Stats chart to correct or delete its logged sleep time.",
+   "version": "0.2",
    "system": false,
    "category": "Everyday",
-   "size": 1423584,
-   "sha256": "6e883975d8eada01fcffb639433173d7e2be1e518bd362183ea3536d8cbef332",
+   "size": 1460624,
+   "sha256": "9ae45ea21888c34985e0a4b82bcd4f311c48ec68960388a5b5b6df81d8c96198",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sleep/firmware.bin"
   },
   {
