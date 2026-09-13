@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T16:18:52Z",
+ "generated": "2026-09-13T17:45:12Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.1: First release. 12 curated internet radio stations (SomaFM, Radio Paradise) plus up to 10 custom stations you add by direct stream URL. Play/Stop (no pause, for a live stream), a simple spectrum v",
-   "version": "0.1",
+   "notes": "0.2: Status now shows \"Playing\" once the stream is actually flowing instead of being stuck on \"Connecting to stream...\" for stations that never send ICY stream-title metadata.",
+   "version": "0.2",
    "system": false,
    "category": "Media",
-   "size": 2521584,
-   "sha256": "7551ffdd037ffb477542d954404ebe984ed5e6870d92832d72288397e7bad676",
+   "size": 2521776,
+   "sha256": "0d57999a0a58466f8ebd5dbffcd0fe342b00a5e710c50eaf5ff5c191248ef26e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
