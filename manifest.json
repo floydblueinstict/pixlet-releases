@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T22:05:33Z",
+ "generated": "2026-09-13T22:16:17Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.10: The search box still moved up and down slightly after the 0.5 debounce fix - its own horizontal scroll engine was recalculating (and lightly animating) on every keystroke, which a 464px-wide fie",
-   "version": "0.10",
+   "notes": "0.11: Diagnostic build - logs the audio input buffer fill level and free heap once a second while playing, to find the actual cause of \"most stations sound garbled\" (still true even on the original So",
+   "version": "0.11",
    "system": false,
    "category": "Media",
-   "size": 2542032,
-   "sha256": "3d95fe250a6158dea32bf22416b607458b4f41fd85247bb8ce3d06403064f0d8",
+   "size": 2542240,
+   "sha256": "a29c6a630886c2537c48d7b480553f660561f0390fc06d59c5850d3de65703b0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
