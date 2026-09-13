@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T18:44:14Z",
+ "generated": "2026-09-13T21:00:38Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.4: Split into two pages: the main page now shows only what's playing (bigger name, stream title, visualizer and transport), and a new Browse page (tap the list icon) holds the search box, genre tabs",
-   "version": "0.4",
+   "notes": "0.5: The search box rebuilt the entire station list on every keystroke, expensive enough to stall the UI (visible as the search text jittering) and, likely, the audio decoder if a stream was connectin",
+   "version": "0.5",
    "system": false,
    "category": "Media",
-   "size": 2540880,
-   "sha256": "6b5791ca0ff521972ce008e1f5de7450bc5772816a793b2366823b9df48ec499",
+   "size": 2540912,
+   "sha256": "a7fc959985cb8e0d4b13633f8d879a5ef559da3575229096f31fc714adf26186",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
