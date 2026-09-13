@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T15:31:21Z",
+ "generated": "2026-09-13T15:39:07Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.28: Settings > WiFi: forgetting a saved network is now a small trash icon on its row instead of a long-press, since a lingering tap could be misread as a long-press and silently forget it.",
-   "version": "3.28",
+   "notes": "3.29: My Pixlets groups the not-on-device Pixlets by the same categories as the Pix Store website (Time, Markets, Everyday, Learning, Media, Games, Tools), with a small heading before each group. Pixl",
+   "version": "3.29",
    "system": false,
    "category": "Home",
-   "size": 1787696,
-   "sha256": "2cb23f080cc023927922f62fa485ad5653a108ba5765626716477926920d2f77",
+   "size": 1788320,
+   "sha256": "687b17cbcd3a9ec884ac4a19be754a2f679655c640aec592262f02e1057dd064",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
