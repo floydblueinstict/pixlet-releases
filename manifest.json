@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-14T09:21:55Z",
+ "generated": "2026-09-14T09:41:54Z",
  "apps": [
   {
    "id": "calculator",
    "title": "Calculator",
    "description": "Basic and scientific calculator with a ticker-tape history, plus a unit converter mode.",
-   "notes": "0.5: Moved the ticker-tape to a tall column on the right of the Basic and Scientific display and keypad instead of a short strip above them, so far more history is visible at once. Fixed the divide an",
-   "version": "0.5",
+   "notes": "0.6: Ticker-tape now caps at the 20 most recent calculations (was 24) and lists the newest one at the top instead of the bottom, scrolling to the top on each new entry. Added a Settings popup (gear ic",
+   "version": "0.6",
    "system": false,
    "category": "Tools",
-   "size": 886592,
-   "sha256": "00e6753f25b8a58e4ad6adb927fbbea65ea23b4e64aab445202d899879a1edd8",
+   "size": 922192,
+   "sha256": "39721463b79295f6ff422fcbf363783ca895e719a452b619442a1fe9d714364c",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
