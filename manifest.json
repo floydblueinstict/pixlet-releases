@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T10:30:25Z",
+ "generated": "2026-09-14T11:50:53Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.34: Added market alerts, similar to Crypto Monitor's: each item in Settings > Market has a new Alerts tab (price above, price below, percent up or down within the hour). Checked whenever the market ",
-   "version": "3.34",
+   "notes": "3.35: The Market item picker's Alerts tab had fields low enough that the on-screen number keyboard covered them, making them hard to reach. The popup is now anchored near the top of the screen instead",
+   "version": "3.35",
    "system": false,
    "category": "Home",
-   "size": 1836192,
-   "sha256": "6383dacd6fc6e4bbdcd768d95e74c815561e26e16dac8be6102594da48579116",
+   "size": 1836064,
+   "sha256": "5823a359349b6a4e1b216fd4061afe2875927013f883009f4ba86dc52f7e3f7e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
