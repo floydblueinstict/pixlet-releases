@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T10:09:59Z",
+ "generated": "2026-09-14T10:30:25Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.33: The hourly chime now uses a new `BoardAudio::bell()` (fundamental plus a few inharmonic, independently-decaying overtones) instead of a flat sine beep, so it actually sounds like a bell ringing ",
-   "version": "3.33",
+   "notes": "3.34: Added market alerts, similar to Crypto Monitor's: each item in Settings > Market has a new Alerts tab (price above, price below, percent up or down within the hour). Checked whenever the market ",
+   "version": "3.34",
    "system": false,
    "category": "Home",
-   "size": 1833808,
-   "sha256": "b78f3e634fa651d622d27690a9e273f5ee9312c36c95aef12a8df5049bb5fa12",
+   "size": 1836192,
+   "sha256": "6383dacd6fc6e4bbdcd768d95e74c815561e26e16dac8be6102594da48579116",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
