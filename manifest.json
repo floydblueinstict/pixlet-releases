@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T23:03:07Z",
+ "generated": "2026-09-14T06:10:48Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.14: Disabling the cursor blink animation alone (0.13) didn't stop the reported up/down jitter, confirmed still visible to the naked eye (not a phone-camera artifact - checked by analyzing a video fr",
-   "version": "0.14",
+   "notes": "0.15: Added a \"Refresh catalog\" button on the Browse page (the refresh icon beside the search box): a live query to radio-browser.info for top-voted MP3/AAC stations in the currently selected genre (o",
+   "version": "0.15",
    "system": false,
    "category": "Media",
-   "size": 2542240,
-   "sha256": "635917e01547ec1d2a97fb894e2d15993719ed4f4a893add3b1441d4927ddf56",
+   "size": 2568512,
+   "sha256": "608f585a6e585d84e2d19adef4b26c946c7a4d2a12dd76b5c3d015663f9e3367",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
