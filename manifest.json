@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T21:56:21Z",
+ "generated": "2026-09-14T22:04:40Z",
  "apps": [
   {
    "id": "calculator",
@@ -233,12 +233,12 @@
    "id": "sports",
    "title": "Sports",
    "description": "Live scores for the sports you follow (Football, Basketball) via the Pixlet sports backend, with goal alerts and offline last-known scores.",
-   "notes": "0.4: Fixed the new \"score updated\" and page-indicator lines overlapping on screen (the page indicator's text was long enough to wrap to two lines, growing upward into the row above it since it was bot",
-   "version": "0.4",
+   "notes": "0.5: Redesigned the score card layout per feedback: tournament name is bigger (and leads, followed by the team names); a not-yet-started game shows a small \"soon\" instead of a giant \"vs\"; and the stan",
+   "version": "0.5",
    "system": false,
    "category": "Everyday",
-   "size": 1666112,
-   "sha256": "5989d09473f98198310810279c8ed28e0fb759ffb4c10a65a82345f14a8113f4",
+   "size": 1703280,
+   "sha256": "bf18112c49137f55285890fcb41b1c56c314e4a4c02a592823b85353f6d0783a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sports/firmware.bin"
   },
   {
