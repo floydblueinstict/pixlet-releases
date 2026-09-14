@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T14:12:20Z",
+ "generated": "2026-09-14T14:44:56Z",
  "apps": [
   {
    "id": "calculator",
@@ -16,13 +16,13 @@
   {
    "id": "calm",
    "title": "Calm",
-   "description": "Relaxing background sounds (rain, ocean, wind) with a breathing guide and sleep timer.",
-   "notes": "0.1: First release. Three looped ambience sounds (rain, ocean, wind - CC0 from freesound.org, see README.md), played from a dedicated core-0 task so the UI never stutters. A paced-breathing visual gui",
-   "version": "0.1",
+   "description": "Relaxing background sounds (rain, ocean, wind, forest, fire, thunder, brown noise) with a breathing guide and sleep timer.",
+   "notes": "0.2: Added four more sounds: Forest, Fire and Thunder (CC0 recordings from freesound.org, same as the original three - see README.md) and Brown noise, synthesized on-device at boot (a leaky- integrato",
+   "version": "0.2",
    "system": false,
    "category": "Everyday",
-   "size": 1420768,
-   "sha256": "5c8f4788b666ef4bd340981adecc0690d4770ef15c39a7c460b4766527a47b7d",
+   "size": 2253408,
+   "sha256": "522854c994ce353c8e1aa80f86c1999c284d824813a5563a24ef24329ad68fad",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calm/firmware.bin"
   },
   {
