@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T15:15:25Z",
+ "generated": "2026-09-14T15:40:01Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.41: 3.35/3.37's top-anchored Alerts popup still wasn't enough: the second of its two stacked rows (Up %/Down %) sat low enough to dip under the number keyboard. Alert fields are now label-beside-tex",
-   "version": "3.41",
+   "notes": "3.42: Picking a Pixlet already in device memory gave no feedback before the screen went dark for the reboot - easy to read as \"nothing happened\". A centered \"Opening <name>\" popup now shows the instan",
+   "version": "3.42",
    "system": false,
    "category": "Home",
-   "size": 1836192,
-   "sha256": "e17249cd489a9fca64a408121bc4427071fcddec72dcc7303136db4294c55795",
+   "size": 1836544,
+   "sha256": "48a67a333c3b5ccf6e992c4ef38a7a487f1ad33ca898355b3a8e136367d21a74",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
