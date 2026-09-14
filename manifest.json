@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T15:46:10Z",
+ "generated": "2026-09-14T18:01:25Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.43: Fixed the home clock showing UTC for a while after boot instead of the home time zone. Cause: `configTime(0, 0, ...)` (started once WiFi connects) ends by calling the core's own `setTimeZone(-0,",
-   "version": "3.43",
+   "notes": "3.44: Added the new Sports app to the Everyday category.",
+   "version": "3.44",
    "system": false,
    "category": "Home",
-   "size": 1836544,
-   "sha256": "8bf74fba762478da6291db146517d7074f153771b35b88d75c1317342e55b510",
+   "size": 1836560,
+   "sha256": "7c71a827b4370e6e278e8080597a505bec998241a8e9b96ba3bdc11a526416be",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -228,6 +228,18 @@
    "size": 1524192,
    "sha256": "76ee741ceb5b94a35982d3aeb6a6e949745fe0785960afdddae4e7fb44cee4f9",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "description": "Live scores for your favorite teams via the Pixlet sports backend, with goal alerts and offline last-known scores.",
+   "notes": "0.1: First release. Live scores for favorite teams from the Pixlet sports backend (github.com/floydblueinstict/sports-backend), with adaptive polling, goal-change highlighting and offline/stale handli",
+   "version": "0.1",
+   "system": false,
+   "category": "Everyday",
+   "size": 1667552,
+   "sha256": "4b2a976322ff32da7f7b807029cb956902bf54ba214a159a31d9d217bb9e81f4",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sports/firmware.bin"
   },
   {
    "id": "stopwatch",
