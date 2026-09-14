@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T15:02:41Z",
+ "generated": "2026-09-14T15:15:25Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,36 +101,36 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.40: `MAX_APPS` was 24; shipping the 25th app (Calm, 3.39) meant `scanApps()` silently dropped it from the card scan past that cap, so it never showed as installed even after a successful download. B",
-   "version": "3.40",
+   "notes": "3.41: 3.35/3.37's top-anchored Alerts popup still wasn't enough: the second of its two stacked rows (Up %/Down %) sat low enough to dip under the number keyboard. Alert fields are now label-beside-tex",
+   "version": "3.41",
    "system": false,
    "category": "Home",
    "size": 1836192,
-   "sha256": "1c24919e7dc1bcbf7abcd8a3e24dd1e4dc43b54cc633d5e426ae7005a4731c07",
+   "sha256": "e17249cd489a9fca64a408121bc4427071fcddec72dcc7303136db4294c55795",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
    "id": "macropad",
    "title": "Macro Pad",
    "description": "Six programmable Bluetooth keyboard buttons for your PC or Mac.",
-   "notes": "0.2: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.2",
+   "notes": "0.3: A few px more clearance above the number keyboard in the button editor popup (the Text row sat close enough to where the keyboard opens to be worth the margin).",
+   "version": "0.3",
    "system": false,
    "category": "Tools",
    "size": 1088672,
-   "sha256": "004b06065d67f3552b44df0b1b906f5d2bed0d5303b2571a283c026365f19a0a",
+   "sha256": "0cb56db8d9d5911454d736ede9eb3dfe56a08b0b865eb1b2060eb128b85b445f",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
    "id": "markets",
    "title": "Markets",
    "description": "Up to twelve crypto, currency and stock tiles on one page, live changes in colour.",
-   "notes": "0.1: First release. Up to twelve tiles of crypto, currency pairs and stocks with coloured changes, picker with Crypto / Forex / Stock tabs, refresh every 2 minutes.",
-   "version": "0.1",
+   "notes": "0.2: The item picker's number keyboard (Stock tab search) covered most of the results list below it (same bug just fixed in the launcher's own copy of this picker). Popup is now anchored near the top ",
+   "version": "0.2",
    "system": false,
    "category": "Markets",
-   "size": 1568240,
-   "sha256": "b04acb1e477269fa49c994c22485b3974ff511edbe9401fd0691572c3664f8b2",
+   "size": 1568208,
+   "sha256": "144e7168cf75a94f4576fda50e751a11e858ca6a43835e63ba7565c5de353fb3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/markets/firmware.bin"
   },
   {
@@ -281,12 +281,12 @@
    "id": "weather",
    "title": "Weather",
    "description": "Weather for six places with hourly and 7-day forecasts.",
-   "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.3",
+   "notes": "0.4: The city search popup opens the keyboard immediately, which covered most of the results list below it. The popup is now anchored near the top of the screen and shrunk instead of its usual centere",
+   "version": "0.4",
    "system": false,
    "category": "Everyday",
    "size": 1610240,
-   "sha256": "2e7c371d87423329ffb03b7c801adba221c8986ae4df9fe0bd5270e16051eb09",
+   "sha256": "6e64540645377512a049a9c182ee10a36f87ed4f5d0fe6e2670f47e0ebf6abfb",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
