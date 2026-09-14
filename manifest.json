@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T21:26:02Z",
+ "generated": "2026-09-14T21:47:12Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.44: Added the new Sports app to the Everyday category.",
-   "version": "3.44",
+   "notes": "3.45: Serial `q` now also closes the Pix Store popup (previously only closed the news detail and other popups, leaving no serial way to back out of the store).",
+   "version": "3.45",
    "system": false,
    "category": "Home",
    "size": 1836560,
-   "sha256": "7c71a827b4370e6e278e8080597a505bec998241a8e9b96ba3bdc11a526416be",
+   "sha256": "c821da3a601e5abd7beb5ff9db4b85ae3c8d9e097403c305b90a0d6274fd0ab0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -233,12 +233,12 @@
    "id": "sports",
    "title": "Sports",
    "description": "Live scores for the sports you follow (Football, Basketball) via the Pixlet sports backend, with goal alerts and offline last-known scores.",
-   "notes": "0.2: Replaced team search/favorites with a simple sport picker (Football, Basketball) in Settings - no keyboard needed. Matches the backend's move to sport-scoped major-league discovery instead of per",
-   "version": "0.2",
+   "notes": "0.3: Each card now shows the tournament name, kickoff date/time, and when the score was last updated by the backend, alongside the existing status/score. Games now auto-cycle every 10 seconds (tap sti",
+   "version": "0.3",
    "system": false,
    "category": "Everyday",
-   "size": 1665536,
-   "sha256": "421f28775478f62d967ddd0856b343c97b585f4310b357f1f5ea68768dcf2a1f",
+   "size": 1666144,
+   "sha256": "469171c670758abe5581e7e101a1e3ed8ed42c204876b8f3408db5477dd1db80",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sports/firmware.bin"
   },
   {
