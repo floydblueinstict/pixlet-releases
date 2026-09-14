@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T09:59:21Z",
+ "generated": "2026-09-14T10:09:59Z",
  "apps": [
   {
    "id": "calculator",
@@ -10,7 +10,7 @@
    "system": false,
    "category": "Tools",
    "size": 922192,
-   "sha256": "39721463b79295f6ff422fcbf363783ca895e719a452b619442a1fe9d714364c",
+   "sha256": "99a7b1881c3c80b405beb5356d355bc0447e959e39345b467dad432436935240",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -22,7 +22,7 @@
    "system": true,
    "category": "Time",
    "size": 1946096,
-   "sha256": "ce726800120d618ddce306113d6d48159466dcb82d9dd98ad954322f793ada42",
+   "sha256": "c961e03be37fd43c99ca609cc7b4173e7b8c93caa6bf254c60672470cf1a7e7b",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
@@ -34,7 +34,7 @@
    "system": false,
    "category": "Markets",
    "size": 1850976,
-   "sha256": "bc08034102fa6fce94ceb754aa71bb2ba8b52e0f279ec7f1aee652c60299e307",
+   "sha256": "42e03b3a5e0431f5b93286fb104f5afda5085c515e2d3a2e4e7b15fdcd0a987d",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
   },
   {
@@ -82,19 +82,19 @@
    "system": false,
    "category": "Time",
    "size": 917456,
-   "sha256": "7984b347c772f418dd97d11cefe715ed770433f90ec29383119c3c00603954f3",
+   "sha256": "034d0101912c1efe2c194c11f4470d40336d03017937802e13f916a615615bf4",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/kitchen/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.32: My Pixlets tiles are more compact (88x48 instead of 110x70, dropping the version number and the on-device/card indicator text - the resident border still shows that) so a screen shows 20 tiles i",
-   "version": "3.32",
+   "notes": "3.33: The hourly chime now uses a new `BoardAudio::bell()` (fundamental plus a few inharmonic, independently-decaying overtones) instead of a flat sine beep, so it actually sounds like a bell ringing ",
+   "version": "3.33",
    "system": false,
    "category": "Home",
-   "size": 1789328,
-   "sha256": "658c2be1ab108353ee7005b0bbfd1142b13eeef91c6ff1f308070d4b934530f6",
+   "size": 1833808,
+   "sha256": "b78f3e634fa651d622d27690a9e273f5ee9312c36c95aef12a8df5049bb5fa12",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -154,7 +154,7 @@
    "system": false,
    "category": "Time",
    "size": 917344,
-   "sha256": "1e7164f4c3adbd1e5e88505d3510d36ef89cfd207eacb4c5be5cdcc36c2fb998",
+   "sha256": "195990da151e3491c63c4cb42d7391e68cfa4c6fcb7fe076f9fb82637d034730",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -250,7 +250,7 @@
    "system": true,
    "category": "Time",
    "size": 917616,
-   "sha256": "cc201487db779cea929fa428189a127eabc11129655e00cc578a4387b85906e0",
+   "sha256": "b8a54665111a9439b9fa249659254c2b1d9f06c7e3fe4195192d85fe43806d25",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -262,7 +262,7 @@
    "system": false,
    "category": "Everyday",
    "size": 1049728,
-   "sha256": "344fb1c7735bc02af24345c8957f19e0000153a81788754e7b41f19ad141d82e",
+   "sha256": "eb395c625a3341ad48fd80f5beef02263a85289d6cc4616794040bd008c15d8c",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/vertigo/firmware.bin"
   },
   {
