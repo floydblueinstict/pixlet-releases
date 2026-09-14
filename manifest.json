@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T14:02:46Z",
+ "generated": "2026-09-14T14:12:20Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.39: Added the new Calm app to the My Pixlets category map (Everyday), matching the Pix Store.",
-   "version": "3.39",
+   "notes": "3.40: `MAX_APPS` was 24; shipping the 25th app (Calm, 3.39) meant `scanApps()` silently dropped it from the card scan past that cap, so it never showed as installed even after a successful download. B",
+   "version": "3.40",
    "system": false,
    "category": "Home",
    "size": 1836192,
-   "sha256": "f2eabe11325c259c1baad85f14f9b18153c6505a6ad1ddd973a8f05726a8f456",
+   "sha256": "1c24919e7dc1bcbf7abcd8a3e24dd1e4dc43b54cc633d5e426ae7005a4731c07",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
