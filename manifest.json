@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-14T09:04:44Z",
+ "generated": "2026-09-14T09:21:55Z",
  "apps": [
   {
    "id": "calculator",
    "title": "Calculator",
    "description": "Basic and scientific calculator with a ticker-tape history, plus a unit converter mode.",
-   "notes": "0.4: Merged the standalone Units Pixlet into this app as a third mode (Basic / Sci / Units tabs across the top), removing `apps/units`. Added a Scientific mode sharing the Basic engine and history: si",
-   "version": "0.4",
+   "notes": "0.5: Moved the ticker-tape to a tall column on the right of the Basic and Scientific display and keypad instead of a short strip above them, so far more history is visible at once. Fixed the divide an",
+   "version": "0.5",
    "system": false,
    "category": "Tools",
-   "size": 886528,
-   "sha256": "b5c9c86b9b1a5f03a3e275230ae9860b3f042f79d63897b00531d67376320866",
+   "size": 886592,
+   "sha256": "00e6753f25b8a58e4ad6adb927fbbea65ea23b4e64aab445202d899879a1edd8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
