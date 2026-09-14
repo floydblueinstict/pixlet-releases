@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T12:37:29Z",
+ "generated": "2026-09-14T12:50:16Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.37: 3.36's fix for the Alerts fields jittering (disabling scroll) didn't actually fix it. The real cause, found by comparing against the Markets app's stock-ticker field (which never jitters and nev",
-   "version": "3.37",
+   "notes": "3.38: The Alerts tab's Above/Below fields now suggest the current price +5%/-5% when they're not already set, instead of starting at 0 (off). Only a suggestion: it's never saved unless that field's ow",
+   "version": "3.38",
    "system": false,
    "category": "Home",
-   "size": 1836064,
-   "sha256": "247453171b09c20dd3559c6239ebcff30563fa311b4395a624f324d505a2781b",
+   "size": 1836176,
+   "sha256": "fb4e8b5cc93e0c2266d6b77de7ed92f1d9236ec2ee0412234c527a9692ce7cc7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
