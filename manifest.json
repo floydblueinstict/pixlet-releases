@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T15:40:01Z",
+ "generated": "2026-09-14T15:46:10Z",
  "apps": [
   {
    "id": "calculator",
@@ -101,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.42: Picking a Pixlet already in device memory gave no feedback before the screen went dark for the reboot - easy to read as \"nothing happened\". A centered \"Opening <name>\" popup now shows the instan",
-   "version": "3.42",
+   "notes": "3.43: Fixed the home clock showing UTC for a while after boot instead of the home time zone. Cause: `configTime(0, 0, ...)` (started once WiFi connects) ends by calling the core's own `setTimeZone(-0,",
+   "version": "3.43",
    "system": false,
    "category": "Home",
    "size": 1836544,
-   "sha256": "48a67a333c3b5ccf6e992c4ef38a7a487f1ad33ca898355b3a8e136367d21a74",
+   "sha256": "8bf74fba762478da6291db146517d7074f153771b35b88d75c1317342e55b510",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
