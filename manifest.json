@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T11:50:53Z",
+ "generated": "2026-09-14T12:03:07Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.35: The Market item picker's Alerts tab had fields low enough that the on-screen number keyboard covered them, making them hard to reach. The popup is now anchored near the top of the screen instead",
-   "version": "3.35",
+   "notes": "3.36: The Alerts tab's four fields had their text/placeholder jittering up and down - same cause as the radio app's search box: LVGL recalculating a scroll-into-view on the cursor's own blink. A short",
+   "version": "3.36",
    "system": false,
    "category": "Home",
    "size": 1836064,
-   "sha256": "5823a359349b6a4e1b216fd4061afe2875927013f883009f4ba86dc52f7e3f7e",
+   "sha256": "35ca3e4e6814df6e9438f0eac2ae7ad394d2cb184ac060e6faa2130bbe8b4747",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
