@@ -1,6 +1,6 @@
 {
  "name": "Pixlet",
- "version": "3.31",
+ "version": "3.32",
  "new_install_prompt_erase": true,
  "builds": [
   {

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T09:41:54Z",
+ "generated": "2026-09-14T09:59:21Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.31: Removed the category mapping entry for the standalone Units Pixlet, merged into apps/calculator as a mode (id `units` no longer exists).",
-   "version": "3.31",
+   "notes": "3.32: My Pixlets tiles are more compact (88x48 instead of 110x70, dropping the version number and the on-device/card indicator text - the resident border still shows that) so a screen shows 20 tiles i",
+   "version": "3.32",
    "system": false,
    "category": "Home",
-   "size": 1788320,
-   "sha256": "98c3df56dcc2873d3f0f86699bfbac8c44a49fb71711d03d3f03a274673a1498",
+   "size": 1789328,
+   "sha256": "658c2be1ab108353ee7005b0bbfd1142b13eeef91c6ff1f308070d4b934530f6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
