@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T12:03:07Z",
+ "generated": "2026-09-14T12:37:29Z",
  "apps": [
   {
    "id": "calculator",
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.36: The Alerts tab's four fields had their text/placeholder jittering up and down - same cause as the radio app's search box: LVGL recalculating a scroll-into-view on the cursor's own blink. A short",
-   "version": "3.36",
+   "notes": "3.37: 3.36's fix for the Alerts fields jittering (disabling scroll) didn't actually fix it. The real cause, found by comparing against the Markets app's stock-ticker field (which never jitters and nev",
+   "version": "3.37",
    "system": false,
    "category": "Home",
    "size": 1836064,
-   "sha256": "35ca3e4e6814df6e9438f0eac2ae7ad394d2cb184ac060e6faa2130bbe8b4747",
+   "sha256": "247453171b09c20dd3559c6239ebcff30563fa311b4395a624f324d505a2781b",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.16: The on-screen keyboard was covering most of the station list while searching (170px of a 270px page), leaving little room to see matches. Shrunk the keyboard to 130px and, while it's open, hide ",
-   "version": "0.16",
+   "notes": "0.17: Found the actual cause of the search box's up/down jitter (0.5/0.10/0.13/0.14 all chased symptoms without fixing it): the box's height was forced a little shorter than a textarea naturally needs",
+   "version": "0.17",
    "system": false,
    "category": "Media",
-   "size": 2568768,
-   "sha256": "e3c9e55b0dffcf76ec4540d528db082fe071ee71087371ec251a251af39c1dd1",
+   "size": 2568784,
+   "sha256": "f19594ecc87a52db8079dadcfae91fc82f0f305f5c779d862602c4be00a7718e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
