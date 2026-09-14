@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-14T06:49:57Z",
+ "generated": "2026-09-14T09:04:44Z",
  "apps": [
   {
    "id": "calculator",
    "title": "Calculator",
-   "description": "Basic four-function calculator.",
-   "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.3",
+   "description": "Basic and scientific calculator with a ticker-tape history, plus a unit converter mode.",
+   "notes": "0.4: Merged the standalone Units Pixlet into this app as a third mode (Basic / Sci / Units tabs across the top), removing `apps/units`. Added a Scientific mode sharing the Basic engine and history: si",
+   "version": "0.4",
    "system": false,
    "category": "Tools",
-   "size": 869664,
-   "sha256": "fff8db1c7e3001c08041a28283617efd1f1dae969cde88a0218d63b7e055216e",
+   "size": 886528,
+   "sha256": "b5c9c86b9b1a5f03a3e275230ae9860b3f042f79d63897b00531d67376320866",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -89,12 +89,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.30: Device memory shrunk from six 2.31 MB slots to four ~3.44-3.56 MB slots, to fit apps/radio (internet radio streaming pulls WiFi/TLS code into the link that mp3's SD-only playback never needed). ",
-   "version": "3.30",
+   "notes": "3.31: Removed the category mapping entry for the standalone Units Pixlet, merged into apps/calculator as a mode (id `units` no longer exists).",
+   "version": "3.31",
    "system": false,
    "category": "Home",
-   "size": 1788336,
-   "sha256": "d97963c57138b2463ca59ec8606c4d0cfb75550e85af49dfb761342d1f73bffe",
+   "size": 1788320,
+   "sha256": "98c3df56dcc2873d3f0f86699bfbac8c44a49fb71711d03d3f03a274673a1498",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -252,18 +252,6 @@
    "size": 917616,
    "sha256": "cc201487db779cea929fa428189a127eabc11129655e00cc578a4387b85906e0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
-  },
-  {
-   "id": "units",
-   "title": "Units",
-   "description": "Unit converter, eight categories.",
-   "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.3",
-   "system": false,
-   "category": "Tools",
-   "size": 853056,
-   "sha256": "4a3df3fd200bdf2732551842cd311104301cd100656aca7b7ef48ba51e761bfa",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
   },
   {
    "id": "vertigo",
