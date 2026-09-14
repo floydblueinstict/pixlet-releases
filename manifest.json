@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T06:22:16Z",
+ "generated": "2026-09-14T06:49:57Z",
  "apps": [
   {
    "id": "calculator",
@@ -161,12 +161,12 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.15: Added a \"Refresh catalog\" button on the Browse page (the refresh icon beside the search box): a live query to radio-browser.info for top-voted MP3/AAC stations in the currently selected genre (o",
-   "version": "0.15",
+   "notes": "0.16: The on-screen keyboard was covering most of the station list while searching (170px of a 270px page), leaving little room to see matches. Shrunk the keyboard to 130px and, while it's open, hide ",
+   "version": "0.16",
    "system": false,
    "category": "Media",
-   "size": 2568512,
-   "sha256": "608f585a6e585d84e2d19adef4b26c946c7a4d2a12dd76b5c3d015663f9e3367",
+   "size": 2568768,
+   "sha256": "e3c9e55b0dffcf76ec4540d528db082fe071ee71087371ec251a251af39c1dd1",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
