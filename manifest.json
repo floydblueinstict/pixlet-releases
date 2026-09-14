@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T12:50:16Z",
+ "generated": "2026-09-14T14:02:46Z",
  "apps": [
   {
    "id": "calculator",
@@ -12,6 +12,18 @@
    "size": 922192,
    "sha256": "99a7b1881c3c80b405beb5356d355bc0447e959e39345b467dad432436935240",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
+  },
+  {
+   "id": "calm",
+   "title": "Calm",
+   "description": "Relaxing background sounds (rain, ocean, wind) with a breathing guide and sleep timer.",
+   "notes": "0.1: First release. Three looped ambience sounds (rain, ocean, wind - CC0 from freesound.org, see README.md), played from a dedicated core-0 task so the UI never stutters. A paced-breathing visual gui",
+   "version": "0.1",
+   "system": false,
+   "category": "Everyday",
+   "size": 1420768,
+   "sha256": "5c8f4788b666ef4bd340981adecc0690d4770ef15c39a7c460b4766527a47b7d",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calm/firmware.bin"
   },
   {
    "id": "clock",
@@ -89,12 +101,12 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.38: The Alerts tab's Above/Below fields now suggest the current price +5%/-5% when they're not already set, instead of starting at 0 (off). Only a suggestion: it's never saved unless that field's ow",
-   "version": "3.38",
+   "notes": "3.39: Added the new Calm app to the My Pixlets category map (Everyday), matching the Pix Store.",
+   "version": "3.39",
    "system": false,
    "category": "Home",
-   "size": 1836176,
-   "sha256": "fb4e8b5cc93e0c2266d6b77de7ed92f1d9236ec2ee0412234c527a9692ce7cc7",
+   "size": 1836192,
+   "sha256": "f2eabe11325c259c1baad85f14f9b18153c6505a6ad1ddd973a8f05726a8f456",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
