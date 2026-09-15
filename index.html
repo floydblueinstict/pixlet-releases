@@ -64,7 +64,7 @@ async function main() {
     const rel = a.url.replace(/^https:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/main\//, '');
     const appJson = JSON.stringify({id:a.id, title:a.title, version:a.version, size:a.size});
     card.innerHTML = `
-      <h2>${esc(a.title)} <span class="ver">v${esc(a.version)}</span>${a.system ? ' <span class="ver" style="background:var(--mint)">system</span>' : ''}</h2>
+      <h2>${esc(a.title)} <span class="ver">v${esc(a.version)}</span>${a.system ? ' <span class="ver" style="background:var(--mint)">system</span>' : ''}${a.beta ? ' <span class="ver" style="background:var(--grape)">beta</span>' : ''}</h2>
       <p>${esc(a.description || '')}${a.id === 'launcher' ? ' Flash it over USB the first time; afterwards the device updates it from the store.' : ''}</p>
       <div class="meta">${fmtKB(a.size)} · id <code>${esc(a.id)}</code></div>
       <div class="meta">sha256 ${esc(a.sha256)}</div>
