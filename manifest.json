@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T06:59:58Z",
+ "generated": "2026-09-16T06:53:18Z",
  "apps": [
   {
    "id": "calculator",
@@ -114,8 +114,8 @@
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1836832,
-   "sha256": "197d82323f242b4a4459849cfd97df6694519f947946466b437bed5e445e920d",
+   "size": 1836848,
+   "sha256": "fd408ddc6faea9b8425c3250ba89c3a07fdc7c84b5c7068613266a8d409701d4",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -221,6 +221,19 @@
    "size": 1475616,
    "sha256": "22bdf5a22c6002bd02a2f79d9507dd5076b80752d97288362b445a521fcd0813",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
+  },
+  {
+   "id": "simon",
+   "title": "Simon",
+   "description": "Simon clone: repeat the growing color sequence, 4 or 6 pads, best score and history.",
+   "notes": "1.0: First release. Simon clone with 4 or 6 colored pads, a distinct tone per pad, best score per pad count, and a history of the last ten games with a reset.",
+   "version": "1.0",
+   "system": false,
+   "beta": false,
+   "category": "Games",
+   "size": 860192,
+   "sha256": "f4462ef1212e098d6a43566b794d59412ebda8829dd22d32577d914c53f72532",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/simon/firmware.bin"
   },
   {
    "id": "sleep",
