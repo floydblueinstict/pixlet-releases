@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T17:42:18Z",
+ "generated": "2026-09-17T18:04:11Z",
  "apps": [
   {
    "id": "calculator",
@@ -31,13 +31,13 @@
    "id": "clock",
    "title": "Clock",
    "description": "Seven-segment clock, hourly chime, six repeating alarms.",
-   "notes": "0.4: Each alarm can now be Tone or Voice (announces the hour with the same spoken clips as the hourly chime, e.g. \"It's seven o'clock\" - it doesn't speak the minute) instead of always beeping; the tog",
-   "version": "0.4",
+   "notes": "0.5: Adopts the shared app header (title, battery icon, Home button, a settings gear for Sound/Display) and footer (Alarms, and this app's own Settings - time zone, 24h clock, hourly chime, quiet hour",
+   "version": "0.5",
    "system": true,
    "beta": false,
    "category": "Time",
-   "size": 1949520,
-   "sha256": "db768ae52894f2c47d228cf651b0c3531d97a806b703f56ff17fa40f9159968f",
+   "size": 1962608,
+   "sha256": "5cc0c5fe742630f964e3e4e28e630ca4b2e4a5a515b3babe5ef475b7230c94ca",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
