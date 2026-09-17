@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T18:54:41Z",
+ "generated": "2026-09-17T21:17:03Z",
  "apps": [
   {
    "id": "calculator",
@@ -11,7 +11,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1013184,
-   "sha256": "e62693a5776b164e1bc0263815ab581c11d626897a3f75225cb2eff5281d3d2f",
+   "sha256": "7233866bbac86b2af84ed456fbf48efac606ce5f61d9ae858d5b7b1156046ce6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -24,7 +24,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 3077200,
-   "sha256": "65de776892a64782d0ac616f2a5474bae7a38a0c4455fccf82643ff0fa979df6",
+   "sha256": "cfb00cf591532b031d791443fb99d80993ed77f66ecb2a51042514b9a2bae079",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calm/firmware.bin"
   },
   {
@@ -37,7 +37,7 @@
    "beta": false,
    "category": "Time",
    "size": 1962608,
-   "sha256": "5cc0c5fe742630f964e3e4e28e630ca4b2e4a5a515b3babe5ef475b7230c94ca",
+   "sha256": "3ac7f3536abd8147626cadd6020a5e08356d95695d988fe0bddfa5f2f0469699",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
@@ -50,7 +50,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1867952,
-   "sha256": "0eb7f7fa3af782beda3fb1feb2aad6f02e7ad131437babe8ebad39025c8e0d67",
+   "sha256": "3a109d0204de9d2f54c63d54d5c7f6455dff9156529558d660b780c98b6d5800",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
   },
   {
@@ -63,7 +63,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1628480,
-   "sha256": "2f5fb277eaf9a7fa1b782591d159b04b8ecbe0e0ebef69597784f77c1d7d858f",
+   "sha256": "1ac4943dc4ef90caa8c58ea8265b776be755679d491aa907e9e25d74b81c9857",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/currency/firmware.bin"
   },
   {
@@ -76,7 +76,7 @@
    "beta": false,
    "category": "Games",
    "size": 1015040,
-   "sha256": "3ab2617e1b70fe61a86f44f38c30579c2823f5375a28c106148d4ee845a39149",
+   "sha256": "dbc7c79a129d26daf2f90a8fd517862414063e046e423662ae997e22c571fc34",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
@@ -89,7 +89,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1487152,
-   "sha256": "7848ab077c680aa19d6c17fade8487ea2f68710e5a9de11af7161e88ebbb70b2",
+   "sha256": "8679249b1f48ecf4ffa68e7a4cf243ec6ecfc4e842d1539d124b57de398980c0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/habits/firmware.bin"
   },
   {
@@ -102,20 +102,20 @@
    "beta": false,
    "category": "Time",
    "size": 1009216,
-   "sha256": "0a88f4780aa32f512aa018c7a61c83a388e1ef66602eb14000d987beacfd41c3",
+   "sha256": "2c0d2040d9309ef7cfe6d773396750f7bc8f1d197db698c14ad73c79168261ef",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/kitchen/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.47: Settings > Display gets a Volume slider (shared `system` NVS, like brightness), so every Pixlet's beeps and chimes share one master volume instead of each app tuning its own. Tapping the dashboa",
-   "version": "3.47",
+   "notes": "3.48: The Pix Store gets a device account gate: every Pixlet except the launcher and SD Manager now needs a registered account (pixlet.blueinstinct.com/register) to download, free or paid. A new \"Sign",
+   "version": "3.48",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1846528,
-   "sha256": "f060467658a4a1fe55a2c120eec8495394621f08c88bbb8c9ce9f85981221f86",
+   "size": 1848384,
+   "sha256": "c8dc69d086215db1af7737c61fbcaa88ea3c660eced80ae9310960153f1bc328",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -128,7 +128,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1182672,
-   "sha256": "a679b5d02630ebd981f00c75b1295912caac13d52cf68ab338bcbd1d5eda411e",
+   "sha256": "d53e8c0b8d5d0297b2a26c6f882d122ac3f2b75baf499431af1a60af3273fc95",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
@@ -141,7 +141,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1591312,
-   "sha256": "284bec95e7b7f93704594bfeae3ac0271b9ecbcde3351896e0c2de5f8e60dead",
+   "sha256": "5c310f0e61a390a3666541698714634e7c248afdfe65ffbc74bcae530dd60388",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/markets/firmware.bin"
   },
   {
@@ -154,7 +154,7 @@
    "beta": false,
    "category": "Games",
    "size": 952176,
-   "sha256": "ed354abd5e07e340475180ac88c2d83a22e6a9b7f071d0e929402b3267c7b4e1",
+   "sha256": "985083afeed49a622bbff4e155074cfeb887e167ea6a0e80f5fe85bb3dead533",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/memory-game/firmware.bin"
   },
   {
@@ -167,7 +167,7 @@
    "beta": false,
    "category": "Media",
    "size": 2184736,
-   "sha256": "d440e56d606ff01af4246b7ba9b7a30989d4133263459277c37e3043e686116b",
+   "sha256": "849c2a1e50a4cc2340a91488d56bcff7d97a429e5c6c46ceac5f151731053db8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -180,7 +180,7 @@
    "beta": false,
    "category": "Media",
    "size": 1534384,
-   "sha256": "54a6858c368d1963479649f396639478fce83b86c2e3638be3a09682fb2b3362",
+   "sha256": "652f9e2a0f9f1b976cef532fe95c039baca8bd0018fbe827a724facb7b6e3bab",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -193,7 +193,7 @@
    "beta": false,
    "category": "Time",
    "size": 1008352,
-   "sha256": "f92c3e0112a942b2a6521d92271992aaa308492eb65d76693fc3abfa4627768e",
+   "sha256": "d2fd7a858e6a46fe411201c2fc596e12b9378339d3d24e036a1d4101aff8e1ff",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -206,7 +206,7 @@
    "beta": false,
    "category": "Media",
    "size": 2587056,
-   "sha256": "3f60ea7be7b45e7786b3e4e87436a4cdb974bc062fd9654e0982ba75e90910ac",
+   "sha256": "40cd47095c3eb584dcf5e40fdbba8a9b41628d9584eafb235ab0be6820db1e11",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/radio/firmware.bin"
   },
   {
@@ -219,20 +219,20 @@
    "beta": false,
    "category": "Games",
    "size": 1017232,
-   "sha256": "689bcc874afa30c9e1e37a0f8a7606b8b1309af1417176c4a9acbc9d69078a0f",
+   "sha256": "022913b7239989a26f1b7f2a921db588f3d1582eaf4e5dbe2f7fe5d83b8ec706",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
    "id": "sdmanager",
    "title": "SD Manager",
    "description": "Hotspot and web page to manage the card's files.",
-   "notes": "1.0: Adopts the shared app header (title, battery icon, Home button, a settings gear for Sound/Display - serial `e`/`q`) and footer (hotspot password change). Home now stops the web server and drops t",
-   "version": "1.0",
+   "notes": "1.1: New \"Account\" card on the web page: paste the device token from pixlet.blueinstinct.com/account to pair this device, needed for every Pixlet download except the launcher and this app. Stored in N",
+   "version": "1.1",
    "system": false,
    "beta": false,
    "category": "Tools",
-   "size": 1520912,
-   "sha256": "fc5703b721882cb4f9b4667cabce6caced8a9348359a39f006a4b29a239407b0",
+   "size": 1523280,
+   "sha256": "5fbaafb40eec853ad67bd0c3e23256ad8aa2c70a55d01a3c097cbf7da5d1b4d9",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -245,7 +245,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1484688,
-   "sha256": "1b0031abf7299672f8012819725f89d78f2fc70caae1f39fb715d966c264c5ae",
+   "sha256": "1ef22d2cc13a40fe9e70112ebc722133883f501b8b6a8cbc4b9b343551149c70",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sleep/firmware.bin"
   },
   {
@@ -258,7 +258,7 @@
    "beta": false,
    "category": "Learning",
    "size": 1585488,
-   "sha256": "55b69822c12fdf0bbb45cdefb9552c58f10b6fea3d2ff2bbe4f1e49cdf598d03",
+   "sha256": "41d5fda78be1209d01530cace2c72284b59ca5398aee3099828c95b533a00ff8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
@@ -271,7 +271,7 @@
    "beta": true,
    "category": "Everyday",
    "size": 1738864,
-   "sha256": "18802c57e9d75a733361781fae9dc66451d1c357974ce50e3ff7381aa8c469c4",
+   "sha256": "8c8ee5fd3b7365c8a84e82c266c25890d852ca3b9089ad73699d2a87c3dbb0ea",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sports/firmware.bin"
   },
   {
@@ -284,7 +284,7 @@
    "beta": false,
    "category": "Time",
    "size": 976688,
-   "sha256": "a9d63ecb4d29f56e83be59d1d974bebebec5f9d530034d7fddd9d18f2be5dea9",
+   "sha256": "db9a6fe76dc7bcd4116274598f80bc71263ecf463d2849d5cf393344bbd0357a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -297,7 +297,7 @@
    "beta": false,
    "category": "Learning",
    "size": 1502864,
-   "sha256": "8684ad6fc10eedfbb0b968a6d3264c89cbb183a6768c4f7fb50050c465786073",
+   "sha256": "9b13e0713323e21e6721022db047c9d1624e90271585759da88ba0fc0b7dddb3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/techday/firmware.bin"
   },
   {
@@ -310,7 +310,7 @@
    "beta": false,
    "category": "Time",
    "size": 1008832,
-   "sha256": "21a598f5b69db3247795f16d3426111c7cd15f30e89cf7cb8e354703169dcb0b",
+   "sha256": "a7a57e91679c9c9ed4378e34a18ec738f04deae8059722c7dcec26737440c683",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -323,7 +323,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1141216,
-   "sha256": "016a6642290fa109592e1da9b23fb8f98607a8d7fba1365470678765d31a30d6",
+   "sha256": "d136e53891f99da8c6cb0559afbc1b5a04bec54e67ba3e4be8dff0cfa5ea8dab",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/vertigo/firmware.bin"
   },
   {
@@ -336,7 +336,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1628752,
-   "sha256": "b570378903bb1344f39371db755b92dca85e0692ea84fea25614d1404dcfc299",
+   "sha256": "e46c73a1c0da15749bd906e5ffc73145e023e891b860733e5d5e3e11e7ef3dae",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -349,7 +349,7 @@
    "beta": false,
    "category": "Time",
    "size": 1500896,
-   "sha256": "72babdec587f8b260c8ad7786eb1436404c4ebcae34124eae0348bc217991f58",
+   "sha256": "2e6929129be16c6d0534284d0b7e83d1c5bc2b50e5bb8f9f71e71eb555f0947e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]
