@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T21:17:03Z",
+ "generated": "2026-09-17T21:47:54Z",
  "apps": [
   {
    "id": "calculator",
@@ -109,13 +109,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.48: The Pix Store gets a device account gate: every Pixlet except the launcher and SD Manager now needs a registered account (pixlet.blueinstinct.com/register) to download, free or paid. A new \"Sign",
-   "version": "3.48",
+   "notes": "3.49: The device sign-in token shrinks from 40 hex characters to an 8-character pairing code (a WiFi-password-style alphabet with no 0/O/1/I/L to avoid misreads) - the old one was painful to type on t",
+   "version": "3.49",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1848384,
-   "sha256": "c8dc69d086215db1af7737c61fbcaa88ea3c660eced80ae9310960153f1bc328",
+   "size": 1848416,
+   "sha256": "0ec96bfa05f86cb7dffc03de98bbaf0c295c2df78f2b250b4838cecc4d3a9864",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -226,13 +226,13 @@
    "id": "sdmanager",
    "title": "SD Manager",
    "description": "Hotspot and web page to manage the card's files.",
-   "notes": "1.1: New \"Account\" card on the web page: paste the device token from pixlet.blueinstinct.com/account to pair this device, needed for every Pixlet download except the launcher and this app. Stored in N",
-   "version": "1.1",
+   "notes": "1.2: The device token is now an 8-character pairing code instead of 40 hex characters, and the Account card shows it in full once paired (short enough now that masking it added nothing).",
+   "version": "1.2",
    "system": false,
    "beta": false,
    "category": "Tools",
-   "size": 1523280,
-   "sha256": "5fbaafb40eec853ad67bd0c3e23256ad8aa2c70a55d01a3c097cbf7da5d1b4d9",
+   "size": 1522976,
+   "sha256": "46e4d146d4cb81c77fa94c44795f3ff2b80afd00c1bd34b83750287765d407d3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
