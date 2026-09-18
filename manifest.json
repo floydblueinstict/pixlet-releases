@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T15:07:45Z",
+ "generated": "2026-09-18T15:31:45Z",
  "apps": [
   {
    "id": "calculator",
@@ -109,13 +109,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.50: Serial `V` boots whatever image is sitting in device slot 0 - a developer convenience for testing a plain USB-flashed app without going through the Pix Store install flow.",
-   "version": "3.50",
+   "notes": "3.51: Splash subtitle updated from \"a tiny computer for useful things\" to \"a software platform for ESP32 devices\", matching the new site-wide description now that more boards are planned.",
+   "version": "3.51",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1848528,
-   "sha256": "de17c196d89757bbaecf4ca81a717582de30cb21cda4c49faebe4d2af3695d2d",
+   "size": 1848544,
+   "sha256": "eecedaa0014065d7235654d928f4d01b2d9174d3558c6b6a3fa9630f71f980b2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
