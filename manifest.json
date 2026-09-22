@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T15:31:45Z",
+ "generated": "2026-09-22T20:03:20Z",
  "apps": [
   {
    "id": "calculator",
@@ -44,13 +44,13 @@
    "id": "crypto-monitor",
    "title": "Crypto Monitor",
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts for BTC, ETH, SOL, KAS and more.",
-   "notes": "0.16: Fixes a WiFi bug where the app could be stuck offline for its entire session after a fresh boot: `WiFi.begin()` with no arguments does not reliably rejoin the saved network right after the launc",
-   "version": "0.16",
+   "notes": "0.18: A round of analytics additions from an expert-trader review of the chart and Trades page. New sub-panels ATR 14 (stop-distance guide), ADX 14 (trend vs. range, with the usual 25 line) and OBV, a",
+   "version": "0.18",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1868448,
-   "sha256": "302008f97b1567bc38d8f3712ef786774497518f34ebe5787c049ffd64448d69",
+   "size": 1875424,
+   "sha256": "0a90e9bb508a6cc0a7f8ba4d9ba029a2a1365c980eda4994ab31fcb24bfad4c3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
   },
   {
@@ -260,6 +260,19 @@
    "size": 1586528,
    "sha256": "fd5374cd65377fc7839c66adac5265395036f8db0de9627e2b4056ccfeba444b",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
+  },
+  {
+   "id": "spy-sweep",
+   "title": "Spy Sweep",
+   "description": "Scans nearby WiFi for devices that look like cameras or IoT/surveillance gear, for sweeping a room. Leads, not proof.",
+   "notes": "0.4: Removed BLE scanning entirely. It never became reliable on this hardware/NimBLE-Arduino combination: enabling it crashed the app again on a live re-test (the same `reset reason 5` watchdog failur",
+   "version": "0.4",
+   "system": false,
+   "beta": false,
+   "category": "Tools",
+   "size": 1549648,
+   "sha256": "523011dbc94dbd4379c8d241cefb852022ab43383637ef93fb7d15ef5a6e7282",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spy-sweep/firmware.bin"
   },
   {
    "id": "stopwatch",
