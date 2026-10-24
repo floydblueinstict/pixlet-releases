@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T17:46:49Z",
+ "generated": "2026-10-24T19:53:12Z",
  "apps": [
   {
    "id": "calculator",
@@ -32,14 +32,14 @@
   {
    "id": "clock",
    "title": "Clock",
-   "description": "Seven-segment clock, hourly chime, six repeating alarms.",
-   "notes": "0.6: Fixes a WiFi bug where the app could be stuck offline for its entire session after a fresh boot: `WiFi.begin()` with no arguments does not reliably rejoin the saved network right after the launch",
-   "version": "0.6",
+   "description": "Clock, World Time, Stopwatch and Timers in one: six alarms, an hourly bell and spoken time, city clocks, laps, four countdown timers.",
+   "notes": "1.0: World Time, Stopwatch and Timers are now part of Clock, each on its own tab at the bottom; your cities and timer presets carry over. The hourly chime sounds a bell and announces the time, only fr",
+   "version": "1.0",
    "system": true,
    "beta": false,
    "category": "Time",
-   "size": 1963904,
-   "sha256": "03a0df591b46b16f1e581c9489021f412759284f88dd91b8707c97f90161a7c3",
+   "size": 1990592,
+   "sha256": "681d75fe9a0d111c839e39f09f74f38fe610fd92cda70595658a99a4e7baff4d",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/clock/firmware.bin"
   },
@@ -117,13 +117,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.56: An up-to-date Pixlet in the Pix Store now has a Reinstall button (looping arrows) that downloads the same version again, for repairing a bad copy on the card. Update keeps its own icon, and the ",
-   "version": "3.56",
+   "notes": "3.57: Goes with Clock 1.0, which now includes World Time, Stopwatch and Timers. The dashboard's hourly chime follows the Clock's chime settings (bell and/or the spoken hour, only between the chosen ho",
+   "version": "3.57",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1850400,
-   "sha256": "f2fda6fa37243ab2cc497309149d69b6d933b03be860a715fa2376f7f2c51d87",
+   "size": 1852624,
+   "sha256": "cf088507c3ad210cc82709070ed5f614a4a3aceb932ce60d8b8aaf1656062efa",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/launcher/firmware.bin"
   },
@@ -310,20 +310,6 @@
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/spy-sweep/firmware.bin"
   },
   {
-   "id": "stopwatch",
-   "title": "Stopwatch",
-   "description": "Stopwatch to 1/100 s with lap list.",
-   "notes": "0.4: Adopts the shared app header (title, battery icon, Home button, a settings gear for Sound/Display - serial `e`/`q`). No footer: Start/Stop/Lap/Reset stay as on-screen buttons, not a settings menu",
-   "version": "0.4",
-   "system": false,
-   "beta": false,
-   "category": "Time",
-   "size": 977584,
-   "sha256": "86221993c9581279c771fd0e90bcdf834a024a52731b542911ef6715a60b68e9",
-   "board": "jc3248w535",
-   "url": "https://pixlet.blueinstinct.com/download/jc3248w535/stopwatch/firmware.bin"
-  },
-  {
    "id": "techday",
    "title": "Tech Concept",
    "description": "One technology concept explained in plain English every day.",
@@ -336,20 +322,6 @@
    "sha256": "c51bec269d78de70029ce85fc3afeddc4f8c92e95518d2ba0035bfacb7d31751",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/techday/firmware.bin"
-  },
-  {
-   "id": "timers",
-   "title": "Timers",
-   "description": "Four countdown timers with flashing and beeping alarms.",
-   "notes": "0.6: Shared header and footer: the app name, WiFi/battery icons and a Sound/WiFi/Display settings gear now match every other Pixlet; alarm sound settings moved to a footer button.",
-   "version": "0.6",
-   "system": true,
-   "beta": false,
-   "category": "Time",
-   "size": 1009680,
-   "sha256": "b518898d972005d24ca9929899df8b291cb1a9947e1282ba70091038e3e53ee7",
-   "board": "jc3248w535",
-   "url": "https://pixlet.blueinstinct.com/download/jc3248w535/timers/firmware.bin"
   },
   {
    "id": "tv-remote",
@@ -392,20 +364,6 @@
    "sha256": "ff167724abd5aedbfcf753552ffc25e1e14bc183659893ec2e549d67b93442b0",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/weather/firmware.bin"
-  },
-  {
-   "id": "worldtime",
-   "title": "World Time",
-   "description": "Six city clocks with time zones and DST, NTP synced.",
-   "notes": "0.9: Fixes a WiFi bug where the app could be stuck offline for its entire session after a fresh boot: `WiFi.begin()` with no arguments does not reliably rejoin the saved network right after the launch",
-   "version": "0.9",
-   "system": false,
-   "beta": false,
-   "category": "Time",
-   "size": 1502208,
-   "sha256": "a889f44205c4782833782b7483ac242d564768917c279523156a012e5f133ed0",
-   "board": "jc3248w535",
-   "url": "https://pixlet.blueinstinct.com/download/jc3248w535/worldtime/firmware.bin"
   }
  ]
 }
