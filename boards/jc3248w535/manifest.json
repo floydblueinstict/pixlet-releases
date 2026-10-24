@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:44:32Z",
+ "generated": "2026-10-24T16:35:28Z",
  "apps": [
   {
    "id": "calculator",
@@ -271,13 +271,13 @@
    "id": "solo-miner",
    "title": "BTC Lottery",
    "description": "BTC Lottery: solo Bitcoin mining on the board itself. Astronomically long odds, but a found block pays the whole reward to your address.",
-   "notes": "0.1: First version. Solo Bitcoin mining on the board itself against public-pool.io, with hashrate, best difficulty, shares, block height, network difficulty and your odds of winning a block. Enter you",
-   "version": "0.1",
+   "notes": "0.2: Connects to public-pool.io over TLS (port 4333). Some home networks silently block plain mining traffic, which showed as \"The pool does not answer\". A saved port 21496 is moved to 4333 automatica",
+   "version": "0.2",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1622672,
-   "sha256": "49124be08e888bdb3c8d1e144956a67b5af73d15bcc376559bbd5ce770b46318",
+   "size": 1713936,
+   "sha256": "548f1a4aa509a01cf77b6c4023341bf371380f643d8619aa1a86a8fd586cf577",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/solo-miner/firmware.bin"
   },
