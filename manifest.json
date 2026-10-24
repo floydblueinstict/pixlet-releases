@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T16:35:28Z",
+ "generated": "2026-10-24T17:46:49Z",
  "apps": [
   {
    "id": "calculator",
@@ -122,8 +122,8 @@
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1850384,
-   "sha256": "bc462703a6299c4a4581d3b0af94bda63ccd2b15fec4dd8ae3dc0a66ff49daa7",
+   "size": 1850400,
+   "sha256": "f2fda6fa37243ab2cc497309149d69b6d933b03be860a715fa2376f7f2c51d87",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
@@ -350,6 +350,20 @@
    "sha256": "b518898d972005d24ca9929899df8b291cb1a9947e1282ba70091038e3e53ee7",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/timers/firmware.bin"
+  },
+  {
+   "id": "tv-remote",
+   "title": "TV Remote",
+   "description": "Bluetooth TV remote for Samsung, Android TV and Fire TV: D-pad, volume, a touchpad pointer and a keyboard for search.",
+   "notes": "0.1: First version. Pairs with your TV over Bluetooth as a keyboard and mouse: D-pad, Back, Home, Menu, volume, channels, play/pause, mute and power, a touchpad that moves the TV's pointer, and an on-",
+   "version": "0.1",
+   "system": false,
+   "beta": false,
+   "category": "Tools",
+   "size": 1259040,
+   "sha256": "f73e00a23f142746e142dca210d9b2c21898322d308c3b55b7c6a0f25700c938",
+   "board": "jc3248w535",
+   "url": "https://pixlet.blueinstinct.com/download/tv-remote/firmware.bin"
   },
   {
    "id": "vertigo",
