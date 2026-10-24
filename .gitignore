@@ -1,0 +1,2 @@
+# firmware images go to the private bucket only, never to this public repo
+*.bin

@@ -1,0 +1,29 @@
+{
+ "name": "Pixlet for Guition JC3248W535",
+ "version": "3.56",
+ "board": "jc3248w535",
+ "new_install_prompt_erase": true,
+ "builds": [
+  {
+   "chipFamily": "ESP32-S3",
+   "parts": [
+    {
+     "path": "bootloader.bin",
+     "offset": 0
+    },
+    {
+     "path": "partitions.bin",
+     "offset": 32768
+    },
+    {
+     "path": "otadata_blank.bin",
+     "offset": 122880
+    },
+    {
+     "path": "firmware.bin",
+     "offset": 131072
+    }
+   ]
+  }
+ ]
+}

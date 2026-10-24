@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pix Store admin</title>
+<style>
+  :root { --bg:#1a1b3a; --panel:#26284f; --grid:#3a3d6b; --text:#fff6e5; --muted:#a9accf; --accent:#ffd93d; --blue:#4d96ff; --coral:#ff6b6b; --mint:#6bcb77; --grape:#c77dff; --peach:#ffb26b; --ink:#1a1b3a;  --red:#b3261e; --green:#1b7f4f; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { padding: 28px 24px 12px; max-width: 900px; margin: 0 auto; display:flex; align-items:baseline; gap:16px; }
+  header h1 { margin:0; font-size: 24px; color: var(--text); display:flex; align-items:center; }
+  .mark { display:inline-grid; grid-template-columns: 1fr 1fr; gap:3px; width:30px; height:30px; vertical-align:middle; margin-right:10px; }
+  .mark i { display:block; border-radius:4px; }
+
+  header a { color: var(--muted); margin-left:auto; font-size:13px; }
+  main { max-width: 900px; margin: 0 auto; padding: 8px 24px 40px; }
+  section { background: var(--panel); border:1px solid var(--grid); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  h2 { margin: 0 0 10px; font-size: 17px; }
+  label { display:block; color: var(--muted); font-size: 13px; margin: 8px 0 4px; }
+  input[type=text], input[type=password], textarea { width:100%; background:#14153a; color:var(--text); border:1px solid var(--grid); border-radius:8px; padding: 9px 10px; font-size: 15px; }
+  input[type=file] { color: var(--muted); }
+  .btn { background: var(--blue); color:var(--ink); border:0; padding: 9px 14px; border-radius: 8px; font-weight:600; font-size:14px; cursor:pointer; }
+  .btn.red { background: var(--red); color:#fff; } .btn.green { background: var(--green); color:#fff; } .btn.ghost { background: var(--grid); color:var(--text); }
+  .btn[disabled] { opacity: .5; cursor: default; }
+  table { width:100%; border-collapse: collapse; }
+  td, th { text-align:left; padding: 8px 6px; border-bottom: 1px solid var(--grid); font-size: 14px; vertical-align: middle; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  .muted { color: var(--muted); font-size: 13px; }
+  #status { position: sticky; top: 0; background: var(--bg); padding: 8px 0; color: var(--accent); min-height: 34px; }
+  .hidden { display:none; }
+  .row { display:flex; gap: 10px; align-items:flex-end; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 160px; }
+</style>
+</head>
+<body>
+<header><h1><span class="mark" aria-hidden="true"><i style="background:var(--coral)"></i><i style="background:var(--accent)"></i><i style="background:var(--blue)"></i><i style="background:var(--mint)"></i></span>Pix Store admin</h1><a href="index.html">back to the store</a></header>
+<main>
+  <div id="status"></div>
+
+  <section id="setup" class="hidden">
+    <h2>First-time setup</h2>
+    <p class="muted">No admin password is set yet. Enter a GitHub fine-grained personal access token with <b>Contents: read and write</b> on the releases repository, and choose a password. The token is encrypted with the password (PBKDF2 + AES-GCM) and stored in the repository as <code>admin.enc</code>; only the password unlocks it.</p>
+    <label>GitHub token</label><input type="password" id="setupToken" autocomplete="off">
+    <label>Admin password</label><input type="password" id="setupPass" autocomplete="new-password">
+    <label>Repeat password</label><input type="password" id="setupPass2" autocomplete="new-password">
+    <p><button class="btn green" id="setupBtn">Save and unlock</button></p>
+  </section>
+
+  <section id="login" class="hidden">
+    <h2>Sign in</h2>
+    <label>Admin password</label><input type="password" id="loginPass" autocomplete="current-password">
+    <p><button class="btn" id="loginBtn">Unlock</button> <span class="muted">Forgot it? Delete <code>admin.enc</code> in the repository to run setup again.</span></p>
+  </section>
+
+  <div id="panel" class="hidden">
+    <section>
+      <h2>Published Pixlets <span class="muted" id="count"></span></h2>
+      <table><thead><tr><th>App</th><th>Version</th><th>Size</th><th>Source</th><th></th></tr></thead><tbody id="apps"></tbody></table>
+      <p class="muted">Deleting an app built by the release workflow hides it: it is removed from the manifest now and stays hidden on future releases until you restore it. Deleting an uploaded app removes its file as well.</p>
+    </section>
+
+    <section id="hiddenSec" class="hidden">
+      <h2>Hidden apps</h2>
+      <table><tbody id="hiddenApps"></tbody></table>
+    </section>
+
+    <section>
+      <h2>Add an app</h2>
+      <p class="muted">Uploads go to <code>extra/&lt;id&gt;/firmware.bin</code> in the repository and survive automatic releases. Build the image with PlatformIO the usual way; size and SHA-256 are computed here.</p>
+      <div class="row">
+        <div><label>id (folder name, lowercase)</label><input type="text" id="addId" placeholder="e.g. tetris"></div>
+        <div><label>Title</label><input type="text" id="addTitle" placeholder="Tetris"></div>
+        <div><label>Version</label><input type="text" id="addVersion" placeholder="0.1"></div>
+      </div>
+      <label>Description</label><input type="text" id="addDesc" placeholder="One line shown in the store">
+      <label>firmware.bin</label><input type="file" id="addFile" accept=".bin">
+      <p><button class="btn green" id="addBtn">Upload and publish</button></p>
+    </section>
+
+    <section>
+      <h2>Session</h2>
+      <p><button class="btn ghost" id="lockBtn">Lock</button> <span class="muted">The token stays only in this tab's memory.</span></p>
+    </section>
+  </div>
+</main>
+<script>
+// ---- repository identity: derived from the Pages URL (owner.github.io/repo) with a fallback ----
+const REPO = (() => {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const path = location.pathname.split('/').filter(Boolean);
+  if (m && path.length) return {owner: m[1], repo: path[0]};
+  return {owner: 'floydblueinstict', repo: 'pixlet-releases'};
+})();
+const API = `https://api.github.com/repos/${REPO.owner}/${REPO.repo}`;
+const RAW = `https://raw.githubusercontent.com/${REPO.owner}/${REPO.repo}/main`;
+let token = null, manifest = null, overrides = {hidden: [], extra: []};
+
+const $ = id => document.getElementById(id);
+const status = t => { $('status').textContent = t; };
+const show = (id, on) => $(id).classList.toggle('hidden', !on);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => n >= 1048576 ? (n/1048576).toFixed(2)+' MB' : Math.round(n/1024)+' KB';
+const b64 = buf => { let s = ''; const u = new Uint8Array(buf); for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000)); return btoa(s); };
+const unb64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+
+// ---- password crypto: PBKDF2-SHA256 (300k) -> AES-GCM-256 ----
+async function deriveKey(pass, salt) {
+  const km = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2', salt, iterations: 300000, hash:'SHA-256'}, km, {name:'AES-GCM', length:256}, false, ['encrypt','decrypt']);
+}
+async function encryptToken(tok, pass) {
+  const salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+  const key = await deriveKey(pass, salt);
+  const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, new TextEncoder().encode(tok));
+  return JSON.stringify({v:1, salt:b64(salt), iv:b64(iv), ct:b64(ct)});
+}
+async function decryptToken(blob, pass) {
+  const key = await deriveKey(pass, unb64(blob.salt));
+  const pt = await crypto.subtle.decrypt({name:'AES-GCM', iv:unb64(blob.iv)}, key, unb64(blob.ct));
+  return new TextDecoder().decode(pt);
+}
+
+// ---- GitHub API ----
+async function gh(path, opts = {}) {
+  const r = await fetch(API + path, {...opts, headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json', ...(opts.headers || {})}});
+  if (!r.ok) throw new Error(`${opts.method || 'GET'} ${path}: ${r.status} ${(await r.text()).slice(0, 200)}`);
+  return r.status === 204 ? null : r.json();
+}
+// One commit with several file changes: {path, content: base64 | null (delete)}
+async function commit(message, changes) {
+  const ref = await gh('/git/ref/heads/main');
+  const head = ref.object.sha;
+  const base = (await gh(`/git/commits/${head}`)).tree.sha;
+  const tree = [];
+  for (const c of changes) {
+    if (c.content === null) tree.push({path: c.path, mode: '100644', type: 'blob', sha: null});
+    else { const blob = await gh('/git/blobs', {method: 'POST', body: JSON.stringify({content: c.content, encoding: 'base64'})}); tree.push({path: c.path, mode: '100644', type: 'blob', sha: blob.sha}); }
+  }
+  const t = await gh('/git/trees', {method: 'POST', body: JSON.stringify({base_tree: base, tree})});
+  const nc = await gh('/git/commits', {method: 'POST', body: JSON.stringify({message, tree: t.sha, parents: [head]})});
+  await gh('/git/refs/heads/main', {method: 'PATCH', body: JSON.stringify({sha: nc.sha})});
+  return nc.sha;
+}
+const jsonB64 = o => b64(new TextEncoder().encode(JSON.stringify(o, null, 1) + '\n'));
+
+// ---- data ----
+async function loadData() {
+  manifest = await (await fetch(RAW + '/manifest.json?' + Date.now(), {cache: 'no-store'})).json();
+  const o = await fetch(RAW + '/overrides.json?' + Date.now(), {cache: 'no-store'});
+  overrides = o.ok ? await o.json() : {hidden: [], extra: []};
+  overrides.hidden = overrides.hidden || []; overrides.extra = overrides.extra || [];
+  render();
+}
+function render() {
+  $('count').textContent = `(${manifest.apps.length})`;
+  $('apps').innerHTML = manifest.apps.map((a, i) => `<tr>
+    <td><b>${esc(a.title)}</b><div class="muted">${esc(a.id)} · ${esc(a.description || '')}</div></td>
+    <td>v${esc(a.version)}</td><td>${fmt(a.size)}</td>
+    <td class="muted">${a.url.includes('/extra/') ? 'uploaded' : 'release build'}</td>
+    <td><button class="btn red" data-del="${i}">Delete</button></td></tr>`).join('');
+  show('hiddenSec', overrides.hidden.length > 0);
+  $('hiddenApps').innerHTML = overrides.hidden.map((h, i) => `<tr><td><b>${esc(h.title || h.id)}</b> <span class="muted">${esc(h.id)} v${esc(h.version || '?')}</span></td><td><button class="btn green" data-restore="${i}">Restore</button></td></tr>`).join('');
+}
+
+// ---- actions ----
+async function deleteApp(i) {
+  const a = manifest.apps[i];
+  if (!confirm(`Delete ${a.title} (${a.id}) from the store?`)) return;
+  status(`Deleting ${a.id}…`);
+  const changes = [];
+  if (a.url.includes('/extra/')) {
+    overrides.extra = overrides.extra.filter(e => e.id !== a.id);
+    changes.push({path: `extra/${a.id}/firmware.bin`, content: null});
+  } else if (!overrides.hidden.some(h => h.id === a.id)) overrides.hidden.push(a);
+  manifest.apps.splice(i, 1);
+  changes.push({path: 'manifest.json', content: jsonB64(manifest)}, {path: 'overrides.json', content: jsonB64(overrides)});
+  await commit(`admin: delete ${a.id}`, changes);
+  status(`${a.title} deleted.`);
+  render();
+}
+async function restoreApp(i) {
+  const h = overrides.hidden[i];
+  status(`Restoring ${h.id}…`);
+  overrides.hidden.splice(i, 1);
+  if (h.url && !manifest.apps.some(a => a.id === h.id)) manifest.apps.push(h);
+  await commit(`admin: restore ${h.id}`, [{path: 'manifest.json', content: jsonB64(manifest)}, {path: 'overrides.json', content: jsonB64(overrides)}]);
+  status(`${h.title || h.id} restored.`);
+  render();
+}
+async function addApp() {
+  const id = $('addId').value.trim().toLowerCase(), title = $('addTitle').value.trim(), version = $('addVersion').value.trim(), description = $('addDesc').value.trim();
+  const file = $('addFile').files[0];
+  if (!/^[a-z0-9-]{2,30}$/.test(id)) return status('id must be 2-30 lowercase letters, digits or dashes');
+  if (!title || !version || !file) return status('title, version and firmware.bin are required');
+  if (manifest.apps.some(a => a.id === id) && !confirm(`${id} already exists. Replace it?`)) return;
+  $('addBtn').disabled = true;
+  try {
+    status(`Reading ${file.name}…`);
+    const buf = await file.arrayBuffer();
+    if (new Uint8Array(buf)[0] !== 0xE9) throw new Error('not an ESP32 image (first byte is not 0xE9)');
+    const sha = [...new Uint8Array(await crypto.subtle.digest('SHA-256', buf))].map(b => b.toString(16).padStart(2, '0')).join('');
+    const entry = {id, title, description, version, size: buf.byteLength, sha256: sha, url: `${RAW}/extra/${id}/firmware.bin`};
+    manifest.apps = manifest.apps.filter(a => a.id !== id).concat([entry]);
+    overrides.extra = overrides.extra.filter(e => e.id !== id).concat([entry]);
+    overrides.hidden = overrides.hidden.filter(h => h.id !== id);
+    status(`Uploading ${fmt(buf.byteLength)}…`);
+    await commit(`admin: add ${id} v${version}`, [
+      {path: `extra/${id}/firmware.bin`, content: b64(buf)},
+      {path: 'manifest.json', content: jsonB64(manifest)},
+      {path: 'overrides.json', content: jsonB64(overrides)}]);
+    status(`${title} v${version} published. Devices see it on their next store visit.`);
+    render();
+  } catch (e) { status('Failed: ' + e.message); }
+  $('addBtn').disabled = false;
+}
+
+// ---- auth flow ----
+async function start() {
+  const r = await fetch('admin.enc?' + Date.now(), {cache: 'no-store'});
+  if (r.status === 404) { show('setup', true); return; }
+  if (!r.ok) { status('cannot read admin.enc: ' + r.status); return; }
+  window.encBlob = await r.json();
+  show('login', true);
+  $('loginPass').focus();
+}
+async function unlock(tok) {
+  token = tok;
+  status('Checking token…');
+  try { await gh(''); } catch (e) { token = null; status('Token rejected: ' + e.message); return false; }
+  show('setup', false); show('login', false); show('panel', true);
+  status('');
+  await loadData();
+  return true;
+}
+$('setupBtn').onclick = async () => {
+  const tok = $('setupToken').value.trim(), p1 = $('setupPass').value, p2 = $('setupPass2').value;
+  if (!tok || p1.length < 8) return status('token required, password at least 8 characters');
+  if (p1 !== p2) return status('passwords differ');
+  if (!(await unlock(tok))) return;
+  status('Saving admin.enc…');
+  await commit('admin: set password', [{path: 'admin.enc', content: b64(new TextEncoder().encode(await encryptToken(tok, p1)))}]);
+  status('Password set. You are signed in.');
+};
+$('loginBtn').onclick = async () => {
+  status('Unlocking…');
+  try { const tok = await decryptToken(window.encBlob, $('loginPass').value); await unlock(tok); }
+  catch (e) { status('Wrong password.'); }
+};
+$('loginPass').addEventListener('keydown', e => { if (e.key === 'Enter') $('loginBtn').click(); });
+$('lockBtn').onclick = () => { token = null; location.reload(); };
+$('addBtn').onclick = addApp;
+$('apps').addEventListener('click', e => { const b = e.target.closest('button[data-del]'); if (b) deleteApp(+b.dataset.del).catch(err => status('Failed: ' + err.message)); });
+$('hiddenApps').addEventListener('click', e => { const b = e.target.closest('button[data-restore]'); if (b) restoreApp(+b.dataset.restore).catch(err => status('Failed: ' + err.message)); });
+start().catch(e => status('Error: ' + e.message));
+</script>
+</body>
+</html>
