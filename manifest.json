@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T11:48:33Z",
+ "generated": "2026-10-25T12:45:31Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.58: Every Pixlet now has the screen-off button at the top left of its header, like the home screen. An alarm ringing on the home screen turns the screen back on by itself.",
-   "version": "3.58",
+   "notes": "3.59: The Pix Store lists new Pixlets first (added to the store in the last 30 days), then the ones with an update, then all the others, each under its own heading.",
+   "version": "3.59",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1852640,
-   "sha256": "9e8251fe21d0a02ac5064dbe8780bcf274f8d389579a37fe7ec4678ff1699001",
+   "size": 1852912,
+   "sha256": "2e84398962a879e3cfc366a40d52e5d289e36e99236c3127ccfe98957020d716",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
