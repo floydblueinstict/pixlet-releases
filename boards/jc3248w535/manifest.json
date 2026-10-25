@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T20:40:52Z",
+ "generated": "2026-10-25T11:48:33Z",
  "apps": [
   {
    "id": "calculator",
@@ -11,7 +11,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1014064,
-   "sha256": "ce0889501b040e50a51098ed7fbbd975c18b42a136bd9b1df854b0178fabeef6",
+   "sha256": "dba92c590a03fc149f426945c5070a2fcddf78e73807a1aaefee102d5408f3f5",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/calculator/firmware.bin"
   },
@@ -25,7 +25,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 3078048,
-   "sha256": "7f57980ab4da2335d12161ca761037c0e0c94d9ca986b95d5706c3e6244df1e3",
+   "sha256": "509f5a3c69e7fb5a18a46f44ddc30bf95d2e07985d80d12087d985621acafc85",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/calm/firmware.bin"
   },
@@ -39,7 +39,7 @@
    "beta": false,
    "category": "Time",
    "size": 1990624,
-   "sha256": "4fe32e43fc4f9433243c8b90498d857b093be8ff523a5815acc191cc26c06dc2",
+   "sha256": "baa271633757ad073e969b0cb0c5ce9a0a21b4b28b6fb7199ccf06557275914d",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/clock/firmware.bin"
   },
@@ -53,7 +53,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1883344,
-   "sha256": "edd2e4a4abc665e8585efdaeefc7e9260ef78567165c1d59b91231d5370c8e82",
+   "sha256": "0b5bfeb889e53a1d33832dc9a826965d75a1931a24687f230a42a19dce82ad2d",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/crypto-monitor/firmware.bin"
   },
@@ -67,7 +67,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1629776,
-   "sha256": "e1e6a2d3feb880adb6a9a28c78973a07b4f1c616853d3bc934e7aa5e289bc42c",
+   "sha256": "0106bc4431567a7cc9a2f45fb1462186955cead1b5ea23b487cff40ef81296c3",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/currency/firmware.bin"
   },
@@ -81,7 +81,7 @@
    "beta": false,
    "category": "Games",
    "size": 1015872,
-   "sha256": "6bfdc11c737271e410894ac0ba5f5cb4c6d9a3e36d8de72bc7e1b6eaeff62882",
+   "sha256": "6071cae7235e927375d46101342b07613783fed71d68f4330c66db7ca88e81f6",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/dice/firmware.bin"
   },
@@ -95,9 +95,23 @@
    "beta": false,
    "category": "Everyday",
    "size": 1488432,
-   "sha256": "98e701099ad19e939a5fad37e21caa5c2c7a04c5eb67127c730b5e4dfaa1b9a4",
+   "sha256": "d709accc03bbe3b48595437ff6f70b0c58f421042b4f7b2a4af525d7ed8cd257",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/habits/firmware.bin"
+  },
+  {
+   "id": "idisplay",
+   "title": "iDisplay",
+   "description": "Selfie monitor for the iSelfieCam iPhone app: the live camera picture over Wi-Fi, plus shutter, timer, flash and zoom buttons.",
+   "notes": "0.1: First version. Turns the board into a selfie monitor for the iSelfieCam iPhone app: the live camera picture over Wi-Fi, with shutter, self-timer, flash and zoom buttons, and Another / Done / Dele",
+   "version": "0.1",
+   "system": false,
+   "beta": false,
+   "category": "Tools",
+   "size": 1669216,
+   "sha256": "aad08240f6bc13e84c8891e9378fa0cc0e3789b908cf4479d3f3d3920e20a49b",
+   "board": "jc3248w535",
+   "url": "https://pixlet.blueinstinct.com/download/jc3248w535/idisplay/firmware.bin"
   },
   {
    "id": "kitchen",
@@ -109,7 +123,7 @@
    "beta": false,
    "category": "Time",
    "size": 1010064,
-   "sha256": "c01aad1af4c9f5b021ab01e891e0b466feca5779a8b40bd7c9f08d837c1d1542",
+   "sha256": "0b5c671c79643118b7e17b78681b97f689651834ad2f708adeefbdfe02e833d6",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/kitchen/firmware.bin"
   },
@@ -123,7 +137,7 @@
    "beta": false,
    "category": "Home",
    "size": 1852640,
-   "sha256": "d6057a733360fe83758b6bc35ada6988b7844d8a9a89b918d616992ae15ae103",
+   "sha256": "9e8251fe21d0a02ac5064dbe8780bcf274f8d389579a37fe7ec4678ff1699001",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/launcher/firmware.bin"
   },
@@ -137,7 +151,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1183520,
-   "sha256": "6cd87ffcc9896e0fdf70f2c1b487bcbd51121657a143890404adc047bcae7fa3",
+   "sha256": "08097cb2da5137a07291b969108c0e9d1fa5475e7154514dd26cfc92d95a2717",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/macropad/firmware.bin"
   },
@@ -151,7 +165,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1599632,
-   "sha256": "f3b4f9d682f0ac8cde199aaadd129a7878452f36e42d1b053c18cecb7eb55423",
+   "sha256": "50da3e063823f0645b16aa82a7b51c01953b47cc0d5831913e373af098eb8c3a",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/markets/firmware.bin"
   },
@@ -165,7 +179,7 @@
    "beta": false,
    "category": "Games",
    "size": 953024,
-   "sha256": "c25fcaefd68480a6470bd34a4b6507250303246e4f0d37c227e9c45c6ad2aa12",
+   "sha256": "8e435c291ee5ee6911a1eb9fc0feec6d24438c137a590de6788b4bfefc8931ff",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/memory-game/firmware.bin"
   },
@@ -179,7 +193,7 @@
    "beta": false,
    "category": "Media",
    "size": 2185568,
-   "sha256": "3daf06b646e9123c22839de647c28ea942f97b5e983fc4aedb953d7ee04096d0",
+   "sha256": "535d846c7dfbaed1e157dfaabd33508940c5ed80a275a3fecda841282fea3a58",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/mp3/firmware.bin"
   },
@@ -193,7 +207,7 @@
    "beta": false,
    "category": "Media",
    "size": 1536352,
-   "sha256": "d82ef8107dbfe9190600a532484853a5cf1ad92cf4dd9328f9a1bc2a968180ea",
+   "sha256": "447eea426c6438d3704cdc4d94dc03038d9b4909b738d6b64d36c77eaf6eb575",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/photos/firmware.bin"
   },
@@ -207,7 +221,7 @@
    "beta": false,
    "category": "Time",
    "size": 1009200,
-   "sha256": "83c5aa50c3eed2f09fd1170779555094723d8f693036735a31acf0102491260f",
+   "sha256": "2a56003f862cd528f45cb6ab82c4d60415717a05e00f0053b9a0f09ba3533178",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/pomodoro/firmware.bin"
   },
@@ -221,7 +235,7 @@
    "beta": false,
    "category": "Media",
    "size": 2595552,
-   "sha256": "b0b820586f550ef3a3b82ba9302a92a89e96430ee4d36a3fc8892151639c2dc2",
+   "sha256": "59dd89dbb64642fc8e0445096dbb6f0c2c8ead4f3b6d49dd9e3ac9774ae6e1b5",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/radio/firmware.bin"
   },
@@ -235,7 +249,7 @@
    "beta": false,
    "category": "Games",
    "size": 1018064,
-   "sha256": "dd59d7c4ec6b1717c7a078534de3baece7863575e93a2d54b4b47837b26b15c2",
+   "sha256": "e7654dd05739841a54bd35580de746bcd140dddc96cfd7b22622ca4327a8c2ad",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/scores/firmware.bin"
   },
@@ -249,7 +263,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1523856,
-   "sha256": "77942faf5df661b942b875bd6a969a4079db7395b5345685d524a3ce2673666e",
+   "sha256": "ad1a10e875059ef73ea27fc770f64323a3d9f12c269b42ce1a6912e4356c132c",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/sdmanager/firmware.bin"
   },
@@ -263,7 +277,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1485984,
-   "sha256": "e1c224247bd7b691d0abd02687be2503bc21d1e72949d75eea27eb9715e7fea5",
+   "sha256": "6c5f349a91903823760777ef2e392e0ac0f215c598283a338962f47a548cf81a",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/sleep/firmware.bin"
   },
@@ -277,7 +291,7 @@
    "beta": false,
    "category": "Markets",
    "size": 1713952,
-   "sha256": "d958d554a6a7a1df39529498a7deadb871a859d35445670fa5a448f12d1681d4",
+   "sha256": "4dc686b0b7bd639f9d6fdd5f30df83137915bed1efb92f4e7803a0bb05f4517a",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/solo-miner/firmware.bin"
   },
@@ -291,7 +305,7 @@
    "beta": false,
    "category": "Learning",
    "size": 1587360,
-   "sha256": "992796488d77509cab099901921f4525e303324c6f9682f7677f3222928b39d9",
+   "sha256": "026f07b239e8b3350d347e2522a8baf82fc20f45698ff46d32a71eaf08ad5a08",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/spanish/firmware.bin"
   },
@@ -305,7 +319,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1550496,
-   "sha256": "448c69f9fd6cf0415be16228581718bf3c8cf375f6c5bf20268747e12530d45b",
+   "sha256": "bc3a1366546d0cb843883652704a79e7785906cff1e45175a07e615ef0e7440e",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/spy-sweep/firmware.bin"
   },
@@ -319,7 +333,7 @@
    "beta": false,
    "category": "Learning",
    "size": 1504736,
-   "sha256": "4db7e87b6b21d541f61a946347bec0813682f5c23b0c3e2bbbf8be49b56c53b8",
+   "sha256": "744beeb15274d18548b986dde4f9f80bc3e2988ca83465ee014957009c343642",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/techday/firmware.bin"
   },
@@ -333,7 +347,7 @@
    "beta": false,
    "category": "Tools",
    "size": 1259056,
-   "sha256": "7d700e2af9ca2dc71f0183a0abf9b9d5520d952be832c0e17cc3751d6c2a60d2",
+   "sha256": "c46ea2058654f348ed881ee7d5962a06b38094a1b92b9a2766680f6145abbf77",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/tv-remote/firmware.bin"
   },
@@ -347,7 +361,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1142096,
-   "sha256": "81fb8c4f7e193d0b966f00d57aae8ee4173631e68b6272ed0d9d59249a487312",
+   "sha256": "de7770fd6c60175c7400ebda17e6c394fdfa27510881d216159712e22ec646a6",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/vertigo/firmware.bin"
   },
@@ -361,7 +375,7 @@
    "beta": false,
    "category": "Everyday",
    "size": 1630080,
-   "sha256": "e8d9d9ea3b21b3b40a043dd02f1932ba35fb9557d4cd660ed9245a601caa7ef0",
+   "sha256": "510aa1e12cd1b1fef54f269ed286c2ee2a9a6f7b22a4b413ad2c826f9f0216fb",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/weather/firmware.bin"
   }
