@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T12:45:31Z",
+ "generated": "2026-11-13T09:22:15Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.59: The Pix Store lists new Pixlets first (added to the store in the last 30 days), then the ones with an update, then all the others, each under its own heading.",
-   "version": "3.59",
+   "notes": "3.60: Managing the market card is easier (Settings > Market). \"Add items\" stays open so you can add several in a row: coins already on the card are ticked (tap a ticked coin to take it off), and an it",
+   "version": "3.60",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1852912,
-   "sha256": "2e84398962a879e3cfc366a40d52e5d289e36e99236c3127ccfe98957020d716",
+   "size": 1857120,
+   "sha256": "1ea1d97c6e0733975aa2a592c2d23c83ca42998f6d17dbc38ef9a3e19509f01a",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/launcher/firmware.bin"
   },
@@ -159,13 +159,13 @@
    "id": "markets",
    "title": "Markets",
    "description": "Up to twelve crypto, currency and stock tiles on one page, live changes in colour.",
-   "notes": "0.6: Screen-off button at the top left of the header, like on the Pixlet home: tap it to turn the screen off, tap the screen to turn it back on.",
-   "version": "0.6",
+   "notes": "0.7: Adding and removing markets is easier. \"Add\" now stays open so you can add several in a row: coins already on the page are ticked (tap a ticked coin to take it off), and a market that's already o",
+   "version": "0.7",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1599632,
-   "sha256": "50da3e063823f0645b16aa82a7b51c01953b47cc0d5831913e373af098eb8c3a",
+   "size": 1602992,
+   "sha256": "a609f11d73335a35b5e9a71bc5c4af0f2eabebec18cc39e27424727603b88a02",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/markets/firmware.bin"
   },
