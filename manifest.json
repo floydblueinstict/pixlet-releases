@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:33:51Z",
+ "generated": "2026-11-13T22:31:08Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.61: Battery life with the screen off, and the board no longer switching itself off. On battery with the screen off the home screen now slows the processor, stops drawing the clock and pauses the tim",
-   "version": "3.61",
+   "notes": "3.62: Plugging the USB cable into a computer turns the screen on, as a tap does.",
+   "version": "3.62",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1859040,
-   "sha256": "b55cfcfffb1ec032f96f46d14f127ebc54f3170cc06ac6314b8fe997fecbab49",
+   "size": 1859200,
+   "sha256": "8db4b71d4b44ca0e3c87f89a4d651bcbad05f9cd2fa089fbc4f85ed49fd9dae2",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
