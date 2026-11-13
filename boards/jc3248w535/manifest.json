@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:22:15Z",
+ "generated": "2026-11-13T17:33:51Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.60: Managing the market card is easier (Settings > Market). \"Add items\" stays open so you can add several in a row: coins already on the card are ticked (tap a ticked coin to take it off), and an it",
-   "version": "3.60",
+   "notes": "3.61: Battery life with the screen off, and the board no longer switching itself off. On battery with the screen off the home screen now slows the processor, stops drawing the clock and pauses the tim",
+   "version": "3.61",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1857120,
-   "sha256": "1ea1d97c6e0733975aa2a592c2d23c83ca42998f6d17dbc38ef9a3e19509f01a",
+   "size": 1859040,
+   "sha256": "b55cfcfffb1ec032f96f46d14f127ebc54f3170cc06ac6314b8fe997fecbab49",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/launcher/firmware.bin"
   },
