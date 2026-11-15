@@ -1,12 +1,28 @@
 {
- "generated": "2026-11-13T22:31:08Z",
+ "generated": "2026-11-15T20:57:21Z",
  "default": "jc3248w535",
  "boards": [
   {
    "id": "jc3248w535",
    "title": "Guition JC3248W535",
+   "short": "Guition 3.5\"",
    "chipFamily": "ESP32-S3",
+   "screen": [
+    480,
+    320
+   ],
    "apps": 27
+  },
+  {
+   "id": "ws_s3_lcd349",
+   "title": "Waveshare ESP32-S3-Touch-LCD-3.49",
+   "short": "Waveshare 3.49\" bar",
+   "chipFamily": "ESP32-S3",
+   "screen": [
+    640,
+    172
+   ],
+   "apps": 26
   }
  ]
 }

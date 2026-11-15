@@ -1,0 +1,29 @@
+{
+ "name": "Pixlet for Waveshare ESP32-S3-Touch-LCD-3.49",
+ "version": "3.62",
+ "board": "ws_s3_lcd349",
+ "new_install_prompt_erase": true,
+ "builds": [
+  {
+   "chipFamily": "ESP32-S3",
+   "parts": [
+    {
+     "path": "bootloader.bin",
+     "offset": 0
+    },
+    {
+     "path": "partitions.bin",
+     "offset": 32768
+    },
+    {
+     "path": "otadata_blank.bin",
+     "offset": 122880
+    },
+    {
+     "path": "firmware.bin",
+     "offset": 131072
+    }
+   ]
+  }
+ ]
+}
