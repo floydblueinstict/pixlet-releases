@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T20:57:21Z",
+ "generated": "2026-11-16T10:07:55Z",
  "apps": [
   {
    "id": "calculator",
@@ -117,13 +117,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.62: Plugging the USB cable into a computer turns the screen on, as a tap does.",
-   "version": "3.62",
+   "notes": "3.63: Signing in to the Pix Store catches typing mistakes in the device token straight away (a token has 8 letters and digits and never contains 0, 1, i, l or o). A failed download now says why: a dev",
+   "version": "3.63",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1879440,
-   "sha256": "1ab0a452a6faf557e32edcf904fa7f0ea846379e3ca5a76581b62646791711ff",
+   "size": 1880160,
+   "sha256": "ceb3bf3fa5e0dad8fdd02b364dc36eccf5a55779e6f40c48051fcd6f437ce496",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/launcher/firmware.bin"
   },
@@ -274,7 +274,7 @@
    "notes": "0.3: Runs on the Waveshare 3.49-inch bar display with its own layout.",
    "version": "0.3",
    "system": false,
-   "beta": false,
+   "beta": true,
    "category": "Markets",
    "size": 1677072,
    "sha256": "0de2298aff16f9763b3ea646f2bfe6d41a10dc033287dc139ebeaf9f86eb10b4",
