@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:43:36Z",
+ "generated": "2026-11-16T22:58:56Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.65: A Radio card on the home screen (next to the news): one tap starts the Radio Pixlet playing your last station. Radio stays in device memory once you use it, so it starts quickly. Turn the card o",
-   "version": "3.65",
+   "notes": "3.66: Right after switching on, the first market price no longer fails once: the Pix Store check and the dashboard refresh now take turns instead of connecting at the same time.",
+   "version": "3.66",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1863984,
-   "sha256": "5daba18d24687d1f602718038b617e4906bcf97fed379eb880546b762715a89d",
+   "size": 1864160,
+   "sha256": "557c8ca24e3b571a7591d487410ab6ae69d86b3135009c51b0136c043f1047bb",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
