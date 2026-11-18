@@ -1,6 +1,6 @@
 {
  "name": "Pixlet for Guition JC3248W535",
- "version": "3.66",
+ "version": "3.67",
  "board": "jc3248w535",
  "new_install_prompt_erase": true,
  "builds": [
