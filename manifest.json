@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T10:28:16Z",
+ "generated": "2026-11-18T15:42:33Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.68: Home screen on the Waveshare bar: the news headline and the Radio card are no longer cut off at the bottom, a long station name stays on one line, and the top cards use their space better. Humid",
-   "version": "3.68",
+   "notes": "3.69: A WiFi icon next to the battery on the home screen and My Pixlets shows the connection at a glance: white when connected, yellow when the signal is weak, red when offline. Tap it to open the WiF",
+   "version": "3.69",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1864352,
-   "sha256": "340ddacde38874bca58b7fc5dabd2cda5c003529b6b5d8b8e900242a5cafc978",
+   "size": 1864816,
+   "sha256": "4e89cced3621ca011e1200c1dd2c24f067b660e621be833c1041a3cc269a1431",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
