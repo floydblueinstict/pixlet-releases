@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T08:39:42Z",
+ "generated": "2026-11-19T18:54:34Z",
  "apps": [
   {
    "id": "calculator",
@@ -187,13 +187,13 @@
    "id": "mp3",
    "title": "Music",
    "description": "Music player for the card with spectrum analyzer.",
-   "notes": "1.4: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "1.4",
+   "notes": "1.5: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the music plays there at full quality, with play, pause, next, seeking and the volume slider contro",
+   "version": "1.5",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2204816,
-   "sha256": "dfd8499e52577be78e8bd9351233da321973c3b3fdcf0a7a9e42d1ec50548d73",
+   "size": 2659968,
+   "sha256": "0d64bd861c33efb4960f3a8e109a520c7f9a551b4b22d4dd00ccba13d68a4581",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/mp3/firmware.bin"
   },
@@ -229,13 +229,13 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.25: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "0.25",
+   "notes": "0.26: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the station plays there, with the volume slider controlling the speaker and the song title shown h",
+   "version": "0.26",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2691264,
-   "sha256": "c07504a89b9650afe40f7726c99eedc438d3e198760608e6396cfc20e5c7a506",
+   "size": 2714656,
+   "sha256": "634b8e7ec69ddd0811234aac9fa5b966c371cc05c960dd7e6505fe31b68df7d3",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/jc3248w535/radio/firmware.bin"
   },

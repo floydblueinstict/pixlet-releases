@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T08:39:42Z",
+ "generated": "2026-11-19T18:54:34Z",
  "apps": [
   {
    "id": "calculator",
@@ -173,13 +173,13 @@
    "id": "mp3",
    "title": "Music",
    "description": "Music player for the card with spectrum analyzer.",
-   "notes": "1.4: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "1.4",
+   "notes": "1.5: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the music plays there at full quality, with play, pause, next, seeking and the volume slider contro",
+   "version": "1.5",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2286832,
-   "sha256": "d2307e256375c1a9b58ef01af3a10669df63277681128c3ba839b7e541a554f4",
+   "size": 2743216,
+   "sha256": "18d2bf00ea965d5ce3734757451ed34679452cf0da24a3cd905bb89111fbec7e",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/mp3/firmware.bin"
   },
@@ -215,13 +215,13 @@
    "id": "radio",
    "title": "Internet Radio",
    "description": "Internet radio: 12 curated stations plus your own, over WiFi.",
-   "notes": "0.25: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "0.25",
+   "notes": "0.26: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the station plays there, with the volume slider controlling the speaker and the song title shown h",
+   "version": "0.26",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2751424,
-   "sha256": "cdd846f885a3f08f0e1b159ffb07f12d159bd148cc5fd7fedb7d5835418a6063",
+   "size": 2775184,
+   "sha256": "aff6bc3c7b1c77564ba38e07181a9c9147f8a38f0ba9d23f02b02da6ffd8452b",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/radio/firmware.bin"
   },
