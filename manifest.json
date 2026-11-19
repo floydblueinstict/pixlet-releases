@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T15:42:33Z",
+ "generated": "2026-11-19T08:39:42Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.69: A WiFi icon next to the battery on the home screen and My Pixlets shows the connection at a glance: white when connected, yellow when the signal is weak, red when offline. Tap it to open the WiF",
-   "version": "3.69",
+   "notes": "3.70: The Pix Store keeps its place: tapping download or update no longer jumps the list, and on the Waveshare bar the cards no longer snap to the left edge. Settings (pencil) > Home has Bell and Anno",
+   "version": "3.70",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1864816,
-   "sha256": "4e89cced3621ca011e1200c1dd2c24f067b660e621be833c1041a3cc269a1431",
+   "size": 1865072,
+   "sha256": "2dcf636a0416984faf51c42c298b07400e91b27b41ffabde2baa91adf4931540",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
