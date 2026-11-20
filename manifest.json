@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:19:16Z",
+ "generated": "2026-11-20T08:23:20Z",
  "apps": [
   {
    "id": "calculator",
@@ -308,6 +308,20 @@
    "sha256": "a2c6a7acbba2de495f29eefb1365b761d7439dda8c0348a214099e6b4071d752",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/spanish/firmware.bin"
+  },
+  {
+   "id": "speaker-remote",
+   "title": "Speaker Remote",
+   "description": "Remote for Sonos speakers: now playing with the album cover, play, skip, volume, group rooms, play your Sonos Favorites, the queue and a sleep timer.",
+   "notes": "0.1: First version. A remote for your Sonos speakers: see what is playing in any room with the album cover (also when it was started from Spotify or another app on your phone), play, pause, skip, seek",
+   "version": "0.1",
+   "system": false,
+   "beta": false,
+   "category": "Media",
+   "size": 1782656,
+   "sha256": "8018c84465c6a4629f7b18c28b39c14ae6799f87b6bdf4bbac04a9d46599ca5c",
+   "board": "jc3248w535",
+   "url": "https://pixlet.blueinstinct.com/download/speaker-remote/firmware.bin"
   },
   {
    "id": "spy-sweep",
