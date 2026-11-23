@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T08:55:11Z",
+ "generated": "2026-11-23T15:51:35Z",
  "apps": [
   {
    "id": "calculator",
@@ -173,13 +173,13 @@
    "id": "mp3",
    "title": "Music",
    "description": "Music player for the card with spectrum analyzer.",
-   "notes": "1.5: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the music plays there at full quality, with play, pause, next, seeking and the volume slider contro",
-   "version": "1.5",
+   "notes": "1.6: Large music collections load quickly and no longer freeze the player: the track list now shows 25 songs a page, with arrows to turn the pages, and a folder can hold up to 1000 songs. New Filter i",
+   "version": "1.6",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2743216,
-   "sha256": "8774d7d38333b2f039cfbae5e08598744328c0da76c4b141ff82647323b78343",
+   "size": 2748496,
+   "sha256": "b6ddc238d93d017612bab10e614aae45861de2130167e684856fe4e5a8905ebf",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/mp3/firmware.bin"
   },
@@ -299,13 +299,13 @@
    "id": "speaker-remote",
    "title": "Speaker Remote",
    "description": "Remote for Sonos speakers: now playing with the album cover, play, skip, volume, group rooms, play your Sonos Favorites, the queue and a sleep timer.",
-   "notes": "0.3: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.3",
+   "notes": "0.4: Rooms is now a list you tick: tap rooms to play them together, or use All rooms and Just one. Hold a room to control its group without regrouping. Adding and removing rooms is more reliable: the ",
+   "version": "0.4",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 1806992,
-   "sha256": "7f990c5f28ff5bf9a4af3290c13707ab3b4d2e82a37177cfe5d5aca5a9198c8b",
+   "size": 1809824,
+   "sha256": "4cf5519b7629ea57fa12143e6be1b79838e8429eaf8917f594390c6a0843d930",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/speaker-remote/firmware.bin"
   },

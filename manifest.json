@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T08:55:11Z",
+ "generated": "2026-11-23T15:51:35Z",
  "apps": [
   {
    "id": "calculator",
@@ -187,13 +187,13 @@
    "id": "mp3",
    "title": "Music",
    "description": "Music player for the card with spectrum analyzer.",
-   "notes": "1.5: Play on Sonos. The new Sonos button lists the Sonos rooms and groups on your WiFi; pick one and the music plays there at full quality, with play, pause, next, seeking and the volume slider contro",
-   "version": "1.5",
+   "notes": "1.6: Large music collections load quickly and no longer freeze the player: the track list now shows 25 songs a page, with arrows to turn the pages, and a folder can hold up to 1000 songs. New Filter i",
+   "version": "1.6",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 2659968,
-   "sha256": "dfb315ff1c044a67bb5c1360b851bdbab2da9cf170bd776f4822eceed2c43812",
+   "size": 2664688,
+   "sha256": "5de2678a19284a34a073cc3742859e36497f4103743837e39cf3e41d2192cf3d",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/mp3/firmware.bin"
   },
@@ -313,13 +313,13 @@
    "id": "speaker-remote",
    "title": "Speaker Remote",
    "description": "Remote for Sonos speakers: now playing with the album cover, play, skip, volume, group rooms, play your Sonos Favorites, the queue and a sleep timer.",
-   "notes": "0.3: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.3",
+   "notes": "0.4: Rooms is now a list you tick: tap rooms to play them together, or use All rooms and Just one. Hold a room to control its group without regrouping. Adding and removing rooms is more reliable: the ",
+   "version": "0.4",
    "system": false,
    "beta": false,
    "category": "Media",
-   "size": 1807776,
-   "sha256": "e32b449fb4ccff139e8d085464ee0e1c4142e48a3ded055ff7215611773fca72",
+   "size": 1810592,
+   "sha256": "e85d2e27b93b7a9c72e235003cf3645eef6c24cdc803e0544d2d8dd5b675b6c9",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/speaker-remote/firmware.bin"
   },
