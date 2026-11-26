@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T15:51:35Z",
+ "generated": "2026-11-26T18:31:47Z",
  "apps": [
   {
    "id": "calculator",
@@ -47,13 +47,13 @@
    "id": "crypto-monitor",
    "title": "Crypto Monitor",
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts for BTC, ETH, SOL, KAS and more.",
-   "notes": "0.25: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.25",
+   "notes": "0.26: Hold a coin on the Coins page for its alerts: its four price levels plus a new change alert, up or down by a percentage over 5 minutes, 15 minutes, 1 hour or 24 hours, for each coin on its own. ",
+   "version": "0.26",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1872400,
-   "sha256": "70218262e7c57ea8947d5d8c6e4fef2936caabe674fd7d99e745eaf1f226bcac",
+   "size": 1875840,
+   "sha256": "a9d2bbdce0eaf122269a805de47c48af16eeddce0e901b99e312ec3f432c6b37",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/crypto-monitor/firmware.bin"
   },
@@ -145,13 +145,13 @@
    "id": "markets",
    "title": "Markets",
    "description": "Up to twelve crypto, currency and stock tiles on one page, live changes in colour.",
-   "notes": "0.12: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.12",
+   "notes": "0.13: Alerts. Tap a tile to open its alerts: get told when the price goes above or below a level you set, or when it moves up or down by a percentage over 15m, 1h, 24h or 7d (1d, 7d or 1mo for currenc",
+   "version": "0.13",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1656464,
-   "sha256": "84b1793d2e8c727292d86e81fead8e77a661c4749f0009aeabc544559b83ea73",
+   "size": 1661648,
+   "sha256": "980879a44177b35ea20af73dd0217db92156dc1831f42047a6b228281600e2fa",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/markets/firmware.bin"
   },

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T15:51:35Z",
+ "generated": "2026-11-26T18:31:47Z",
  "apps": [
   {
    "id": "calculator",
@@ -47,13 +47,13 @@
    "id": "crypto-monitor",
    "title": "Crypto Monitor",
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts for BTC, ETH, SOL, KAS and more.",
-   "notes": "0.25: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.25",
+   "notes": "0.26: Hold a coin on the Coins page for its alerts: its four price levels plus a new change alert, up or down by a percentage over 5 minutes, 15 minutes, 1 hour or 24 hours, for each coin on its own. ",
+   "version": "0.26",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1888080,
-   "sha256": "1fda36ecbd922f63bde3259521a6b1fe16787a0ccd176016ad31cfbf3c112dc9",
+   "size": 1891520,
+   "sha256": "77543b0a918b633e484a4d9833c14d84e21bb4ac132e838ac6d491d2e3fc7f40",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/crypto-monitor/firmware.bin"
   },
@@ -159,13 +159,13 @@
    "id": "markets",
    "title": "Markets",
    "description": "Up to twelve crypto, currency and stock tiles on one page, live changes in colour.",
-   "notes": "0.12: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "0.12",
+   "notes": "0.13: Alerts. Tap a tile to open its alerts: get told when the price goes above or below a level you set, or when it moves up or down by a percentage over 15m, 1h, 24h or 7d (1d, 7d or 1mo for currenc",
+   "version": "0.13",
    "system": false,
    "beta": false,
    "category": "Markets",
-   "size": 1634832,
-   "sha256": "a4a3624fedc40f261646a934dfe4d97f6c294022059bcd7daccfc96774527f25",
+   "size": 1640928,
+   "sha256": "9f3bf19d25007372c0a679244848e19fdfc23f27e7e3141e01be379fe6e2412f",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/markets/firmware.bin"
   },
