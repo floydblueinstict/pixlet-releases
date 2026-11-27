@@ -1,6 +1,6 @@
 {
  "name": "Pixlet for Waveshare ESP32-S3-Touch-LCD-3.49",
- "version": "3.71",
+ "version": "3.72",
  "board": "ws_s3_lcd349",
  "new_install_prompt_erase": true,
  "builds": [

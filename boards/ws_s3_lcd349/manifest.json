@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T18:31:47Z",
+ "generated": "2026-11-27T08:50:09Z",
  "apps": [
   {
    "id": "calculator",
@@ -117,13 +117,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.71: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "3.71",
+   "notes": "3.72: World time, a stopwatch, four timers and Pomodoro are built into Home: tap the clock and pick a tab along the top. They share their cities, timer names and lengths and Pomodoro settings with the",
+   "version": "3.72",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1885008,
-   "sha256": "91a44014107aa49e58152b2a49c40a72de14cf3070f4250e63bf6e02b68d73c8",
+   "size": 1901312,
+   "sha256": "5d6486d9f2c127b8ac974a52df7ab8b654ad292c56076c5a03e3f750dc79173c",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/launcher/firmware.bin"
   },
@@ -201,13 +201,13 @@
    "id": "pomodoro",
    "title": "Pomodoro",
    "description": "Focus and break cycles on a ring with session dots.",
-   "notes": "0.10: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "0.10",
+   "notes": "0.11: The hint under the timer named the wrong next break during a focus session (it said \"Long break\" in the first session). Skipping a focus session also went to a long break too early.",
+   "version": "0.11",
    "system": false,
    "beta": false,
    "category": "Time",
-   "size": 1018272,
-   "sha256": "175f246bf1273f94acc7f21485776ea7da314d2a1141605d1aaaa5e6dea28df3",
+   "size": 1018320,
+   "sha256": "20ab9898473e33d3163a97d44a1ff2231c748d00d870f4c15d68dfcd2793b4b3",
    "board": "ws_s3_lcd349",
    "url": "https://pixlet.blueinstinct.com/download/ws_s3_lcd349/pomodoro/firmware.bin"
   },

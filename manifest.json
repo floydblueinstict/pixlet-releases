@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T18:31:47Z",
+ "generated": "2026-11-27T08:50:09Z",
  "apps": [
   {
    "id": "calculator",
@@ -131,13 +131,13 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.71: Reconnecting to WiFi now tries your saved networks in order, starting with the one you picked last, instead of the one with the strongest signal, and it no longer reorders the list.",
-   "version": "3.71",
+   "notes": "3.72: World time, a stopwatch, four timers and Pomodoro are built into Home: tap the clock and pick a tab along the top. They share their cities, timer names and lengths and Pomodoro settings with the",
+   "version": "3.72",
    "system": false,
    "beta": false,
    "category": "Home",
-   "size": 1865296,
-   "sha256": "9d48526d560ab3a2fd67472a81ea49727d6ff759f38d1dab1c6b1c513400a8ab",
+   "size": 1882240,
+   "sha256": "32378679b6b627a170b91196330f42d5bd0a6c992526f347331c24d05bbfa206",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/launcher/firmware.bin"
   },
@@ -215,13 +215,13 @@
    "id": "pomodoro",
    "title": "Pomodoro",
    "description": "Focus and break cycles on a ring with session dots.",
-   "notes": "0.10: The battery percentage in the header now keeps updating while the Pixlet is open (it used to show the figure from when the Pixlet started, so a charging battery looked stuck).",
-   "version": "0.10",
+   "notes": "0.11: The hint under the timer named the wrong next break during a focus session (it said \"Long break\" in the first session). Skipping a focus session also went to a long break too early.",
+   "version": "0.11",
    "system": false,
    "beta": false,
    "category": "Time",
-   "size": 1012720,
-   "sha256": "073098da953ebee8da9531db1d878f39229815885815d8bae6a42e595307329c",
+   "size": 1012768,
+   "sha256": "464329229d0c346ff09e28fbd08f111401bb77897ae61edbacf520da21017df8",
    "board": "jc3248w535",
    "url": "https://pixlet.blueinstinct.com/download/pomodoro/firmware.bin"
   },
